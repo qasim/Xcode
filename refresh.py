@@ -8,9 +8,20 @@ if __name__ == '__main__':
     xcodes = xcodes_response.json()
     xcodes.reverse()
 
+    start = False
+
     for xcode in xcodes:
         if xcode['name'] != 'Xcode':
             continue
+
+        version = xcode['version']
+        number = version['number']
+
+        if not start:
+            if number == '8.0':
+                start = True
+            else:
+                continue
 
         date_components = xcode['date']
         year = date_components['year']
@@ -20,11 +31,8 @@ if __name__ == '__main__':
         date = datetime(year, month, day)
         isodate = date.isoformat()
 
-        version = xcode['version']
-
         build = version['build']
 
-        number = version['number']
         dot_count = number.count('.')
         if dot_count == 2:
             semver = number
