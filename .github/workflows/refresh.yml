@@ -29,3 +29,6 @@ jobs:
 
     - name: Refresh
       run: python refresh.py
+
+    - name: Push git changes
+      run: git push --tags --force
