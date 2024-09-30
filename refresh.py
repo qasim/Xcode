@@ -61,8 +61,10 @@ if __name__ == '__main__':
             else:
                 semver = '%s-%s' % (semver, pre_release_label)
 
+        semver = '%s+%s' % (semver, build)
+
         subprocess.run(
-            ['git', 'tag', '--force', semver, '-m', build],
+            ['git', 'tag', '--force', semver],
             check=True,
             env=dict(os.environ) | {
                 "GIT_AUTHOR_DATE": isodate,
