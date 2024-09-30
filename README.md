@@ -4,6 +4,6 @@
 
 This repository reports updates to Xcode by creating a git tag whenever a new Xcode version has been released.
 
-Tags pushed to this repository are named in accordance to the [Semantic Versioning Specification (SemVer)](https://semver.org/), enriched with a message that consists of the build name provided by Apple for that version.
+Tags pushed to this repository are named in accordance to the [Semantic Versioning Specification (SemVer)](https://semver.org/).
 
 The data source for this project is provided by [xcodereleases.com](https://xcodereleases.com/).
