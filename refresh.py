@@ -63,8 +63,12 @@ if __name__ == '__main__':
 
         semver = '%s+%s' % (semver, build)
 
+        download_url = ""
+        if 'links' in xcode.keys():
+            download_url = xcode['links']['download']['url']
+
         subprocess.run(
-            ['git', 'tag', '--force', semver],
+            ['git', 'tag', '--force', semver, '--message', download_url],
             check=True,
             env=dict(os.environ) | {
                 "GIT_AUTHOR_DATE": isodate,
