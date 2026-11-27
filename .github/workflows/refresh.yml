@@ -4,9 +4,43 @@ on:
   schedule:
     - cron: '9,39 * * * *'
   workflow_dispatch:
+    inputs:
+      apple-developer-downloads:
+        description: "Also read Apple's developer downloads, signed in with the Apple ID on the self-hosted runner"
+        type: boolean
+        default: false
+
+# Two runs at once could push conflicting tags.
+concurrency:
+  group: refresh
+
+permissions: {}
 
 jobs:
+  apple-developer-downloads:
+    # Each run signs in to Apple again, so this only runs when started by hand.
+    if: github.event_name == 'workflow_dispatch' && inputs.apple-developer-downloads
+    runs-on: [self-hosted, qasim-macos]
+    timeout-minutes: 10
+
+    steps:
+    - name: Fetch
+      # xcodes' output can name the account, so it stays on the runner.
+      run: |
+        "$HOME/.local/bin/mise" x xcodes@2.2.0 -- xcodes update --data-source apple < /dev/null > "$RUNNER_TEMP/xcodes.log" 2>&1
+        cp "$HOME/Library/Application Support/com.robotsandpencils.xcodes/available-xcodes.json" "$RUNNER_TEMP/apple-developer-downloads.json"
+
+    - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+      with:
+        name: apple-developer-downloads
+        path: ${{ runner.temp }}/apple-developer-downloads.json
+        retention-days: 1
+
   refresh:
+    needs: apple-developer-downloads
+    # Runs when the developer downloads were skipped or failed too, from the
+    # last snapshot of them.
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
 
     permissions:
@@ -15,6 +49,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+      with:
+        # The existing tags, with each build's line of commits.
+        fetch-depth: 0
 
     - name: Configure git
       run: |
@@ -30,8 +67,28 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
-    - name: Refresh
-      run: python refresh.py
+    - name: Download developer downloads
+      if: needs.apple-developer-downloads.result == 'success'
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+      with:
+        name: apple-developer-downloads
+        path: ${{ runner.temp }}
 
-    - name: Push git changes
-      run: git push --tags --force
+    - name: Fetch sources
+      env:
+        DEVELOPER_DOWNLOADS: ${{ needs.apple-developer-downloads.result == 'success' && format('{0}/apple-developer-downloads.json', runner.temp) || '' }}
+      run: python refresh.py fetch ${DEVELOPER_DOWNLOADS:+--apple-developer-downloads "$DEVELOPER_DOWNLOADS"}
+
+    - name: Refresh manifest
+      run: python refresh.py manifest
+
+    - name: Commit
+      run: |
+        git add sources releases.json releases simulators.json
+        if ! git diff --cached --quiet; then
+          git commit --message "Refresh manifest"
+          git push
+        fi
+
+    - name: Refresh tags
+      run: python refresh.py tags --push

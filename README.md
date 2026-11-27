@@ -2,8 +2,8 @@
 
 [Xcode](https://developer.apple.com/xcode/) is Apple's integrated development environment for macOS, used to develop software for Apple platforms.
 
-This repository reports updates to Xcode by creating a git tag whenever a new Xcode version has been released.
+This repository tracks every Xcode release. [`releases.json`](releases.json) lists every version, and [`releases/`](releases) has the details of each build, such as its download, SDKs and simulators.
 
-Tags pushed to this repository are named in accordance to the [Semantic Versioning Specification (SemVer)](https://semver.org/).
+Each version is also a git tag, named in accordance to the [Semantic Versioning Specification (SemVer)](https://semver.org/) with its build, such as `27.2.0+27B52`. Each tag holds its release's details as `release.json`.
 
-The data source for this project is provided by [xcodereleases.com](https://xcodereleases.com/).
+The data combines Apple's own sources with [xcodereleases.com](https://xcodereleases.com/).
