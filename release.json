@@ -1,0 +1,91 @@
+{
+  "versions": [
+    "15.4.0"
+  ],
+  "build": "15F31d",
+  "date": "2024-05-13",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "14.0",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.4/Xcode_15.4.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-15_4-release-notes",
+  "compilers": {
+    "clang": "15.0.0",
+    "swift": "5.10"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "17.5",
+      "build": "21F77"
+    },
+    "macOS": {
+      "version": "14.5",
+      "build": "23F73"
+    },
+    "tvOS": {
+      "version": "17.5",
+      "build": "21L566"
+    },
+    "visionOS": {
+      "version": "1.2",
+      "build": "21O5565d"
+    },
+    "watchOS": {
+      "version": "10.5",
+      "build": "21T569"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "17.5",
+      "build": "21F79",
+      "name": "iOS 17.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 7336630623
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "17.5",
+      "build": "21L569",
+      "name": "tvOS 17.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3699567550
+        }
+      ]
+    },
+    "visionOS": {
+      "platform": "visionOS",
+      "version": "1.2",
+      "build": "21O5565d",
+      "name": "visionOS 1.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 6930650472
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "10.5",
+      "build": "21T575",
+      "name": "watchOS 10.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3946536779
+        }
+      ]
+    }
+  }
+}
