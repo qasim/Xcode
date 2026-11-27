@@ -1,0 +1,11 @@
+{
+  "versions": [
+    "8.3.0-beta.2"
+  ],
+  "build": "8W120l",
+  "date": "2017-02-06",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "10.12"
+}
