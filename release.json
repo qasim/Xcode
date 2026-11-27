@@ -5,11 +5,13 @@
   "build": "15E5194e",
   "date": "2024-02-13",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "14.0",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.3_beta_3/Xcode_15.3_beta_3.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.3_beta_3/Xcode_15.3_beta_3.xip",
+    "size": 3409328169
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-15_3-release-notes",
   "compilers": {
