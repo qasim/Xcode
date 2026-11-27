@@ -30,10 +30,11 @@ jobs:
       run: |
         log="$HOME/Library/Logs/Xcode refresh/xcodes.log"
         mkdir -p "$(dirname "$log")"
-        # xcodes deletes its saved password when it can't read it, so the
-        # password is read here first, and handed to it.
-        if ! XCODES_PASSWORD=$(security find-generic-password -s com.robotsandpencils.xcodes -w 2> "$log"); then
-          echo "The runner can't read the Apple ID password xcodes saved. Sign in with xcodes on it, then run this again."
+        # The password xcodes saves can only be read by xcodes without asking,
+        # and the runner can't ask, so it's kept in a keychain item of its own,
+        # made with security, and handed to xcodes.
+        if ! XCODES_PASSWORD=$(security find-generic-password -s "Xcode refresh" -w 2> "$log"); then
+          echo "The runner has no Apple ID password. Save it with: security add-generic-password -s 'Xcode refresh' -a 'Apple ID' -w"
           exit 1
         fi
         export XCODES_PASSWORD
