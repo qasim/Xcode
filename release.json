@@ -1,0 +1,18 @@
+{
+  "versions": [
+    "9.2.0-beta"
+  ],
+  "build": "9C32c",
+  "date": "2017-10-31",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "10.12.6",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_9.2_Beta/Xcode_9.2_Beta.xip"
+  },
+  "compilers": {
+    "clang": "9.0.0",
+    "swift": "4.0.3"
+  }
+}
