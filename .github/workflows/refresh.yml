@@ -27,18 +27,12 @@ jobs:
     - name: Fetch
       # xcodes' output can name the account, so it stays on the runner, where
       # the last run's is kept in ~/Library/Logs/Xcode refresh.
+      env:
+        XCODES_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
       run: |
         log="$HOME/Library/Logs/Xcode refresh/xcodes.log"
         mkdir -p "$(dirname "$log")"
-        # The password xcodes saves can only be read by xcodes without asking,
-        # and the runner can't ask, so it's kept in a keychain item of its own,
-        # made with security, and handed to xcodes.
-        if ! XCODES_PASSWORD=$(security find-generic-password -s "Xcode refresh" -w 2> "$log"); then
-          echo "The runner has no Apple ID password. Save it with: security add-generic-password -s 'Xcode refresh' -a 'Apple ID' -w"
-          exit 1
-        fi
-        export XCODES_PASSWORD
-        "$HOME/.local/bin/mise" x xcodes@2.2.0 -- xcodes update --data-source apple < /dev/null >> "$log" 2>&1
+        "$HOME/.local/bin/mise" x xcodes@2.2.0 -- xcodes update --data-source apple < /dev/null > "$log" 2>&1
         cp "$HOME/Library/Application Support/com.robotsandpencils.xcodes/available-xcodes.json" "$RUNNER_TEMP/apple-developer-downloads.json"
 
     - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
