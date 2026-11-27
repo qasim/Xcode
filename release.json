@@ -1,0 +1,37 @@
+{
+  "versions": [
+    "12.1.1-rc"
+  ],
+  "build": "12A7605b",
+  "date": "2020-10-30",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "10.15.4",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.1.1_Release_Candidate/Xcode_12.1.1_Release_Candidate.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-12_1_1-release-notes/",
+  "compilers": {
+    "clang": "12.0.0",
+    "swift": "5.3"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "14.2",
+      "build": "18B79"
+    },
+    "macOS": {
+      "version": "10.15.6",
+      "build": "19G68"
+    },
+    "tvOS": {
+      "version": "14.2",
+      "build": "18K54"
+    },
+    "watchOS": {
+      "version": "7.1",
+      "build": "18R579"
+    }
+  }
+}
