@@ -803,6 +803,11 @@ def refresh_releases(dry_run):
     order = sorted(wanted, key=lambda name: (wanted[name][1]['date'], semver_key(wanted[name][0])))
     stable = [name for name in order if '-' not in wanted[name][0]]
     latest = stable[-1] if stable else None
+    # The latest release goes first, so it's marked before any other exists:
+    # until one is marked, GitHub calls the newest one made the latest.
+    if latest is not None:
+        order.remove(latest)
+        order.insert(0, latest)
 
     existing = {release['tag_name']: release for release in github.releases()}
     created, updated, deleted = [], [], []
