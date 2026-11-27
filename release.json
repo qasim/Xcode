@@ -5,6 +5,7 @@
   "build": "17A5295f",
   "date": "2025-08-05",
   "sources": [
+    "apple-developer-downloads",
     "apple-downloadables-index",
     "xcodereleases"
   ],
