@@ -1,0 +1,8714 @@
+{
+  "releases": [
+    {
+      "build": "16C5032a",
+      "components": {
+        "deviceSupport": {
+          "build": "16C7015",
+          "size": 46778398
+        }
+      }
+    },
+    {
+      "build": "17A321",
+      "components": {
+        "metalToolchain": {
+          "build": "17A321",
+          "size": 704696516
+        }
+      }
+    },
+    {
+      "build": "17A324",
+      "components": {
+        "metalToolchain": {
+          "build": "17A324",
+          "size": 704681813
+        },
+        "deviceSupport": {
+          "build": "17B48",
+          "size": 102031452
+        }
+      }
+    },
+    {
+      "build": "17A400",
+      "components": {
+        "metalToolchain": {
+          "build": "17A324",
+          "size": 704681813
+        },
+        "deviceSupport": {
+          "build": "17B48",
+          "size": 102031452
+        }
+      }
+    },
+    {
+      "build": "17A5241o",
+      "components": {
+        "metalToolchain": {
+          "build": "17A5241l",
+          "size": 637582574
+        }
+      }
+    },
+    {
+      "build": "17A5276g",
+      "components": {
+        "metalToolchain": {
+          "build": "17A5276g",
+          "size": 687904681
+        }
+      }
+    },
+    {
+      "build": "17A5285i",
+      "components": {
+        "metalToolchain": {
+          "build": "17A5285i",
+          "size": 687904630
+        }
+      }
+    },
+    {
+      "build": "17A5295f",
+      "components": {
+        "metalToolchain": {
+          "build": "17A5295f",
+          "size": 687918185
+        }
+      }
+    },
+    {
+      "build": "17A5305f",
+      "components": {
+        "metalToolchain": {
+          "build": "17A5305f",
+          "size": 687918449
+        }
+      }
+    },
+    {
+      "build": "17A5305k",
+      "components": {
+        "metalToolchain": {
+          "build": "17A5305f",
+          "size": 687918449
+        }
+      }
+    },
+    {
+      "build": "17B100",
+      "components": {
+        "metalToolchain": {
+          "build": "17B54",
+          "size": 704697478
+        }
+      }
+    },
+    {
+      "build": "17B5025f",
+      "components": {
+        "metalToolchain": {
+          "build": "17B5025f",
+          "size": 704681885
+        }
+      }
+    },
+    {
+      "build": "17B5035f",
+      "components": {
+        "metalToolchain": {
+          "build": "17B5035f",
+          "size": 704681765
+        }
+      }
+    },
+    {
+      "build": "17B5045g",
+      "components": {
+        "metalToolchain": {
+          "build": "17B5045g",
+          "size": 704697505
+        }
+      }
+    },
+    {
+      "build": "17B54",
+      "components": {
+        "metalToolchain": {
+          "build": "17B54",
+          "size": 704697478
+        }
+      }
+    },
+    {
+      "build": "17B55",
+      "components": {
+        "metalToolchain": {
+          "build": "17B54",
+          "size": 704697478
+        }
+      }
+    },
+    {
+      "build": "17C48",
+      "components": {
+        "metalToolchain": {
+          "build": "17C48",
+          "size": 704696414
+        }
+      }
+    },
+    {
+      "build": "17C5013i",
+      "components": {
+        "metalToolchain": {
+          "build": "17C5013i",
+          "size": 704697242
+        }
+      }
+    },
+    {
+      "build": "17C5038g",
+      "components": {
+        "metalToolchain": {
+          "build": "17C5038g",
+          "size": 704697531
+        }
+      }
+    },
+    {
+      "build": "17C519",
+      "components": {
+        "metalToolchain": {
+          "build": "17C519",
+          "size": 704681789
+        }
+      }
+    },
+    {
+      "build": "17C52",
+      "components": {
+        "metalToolchain": {
+          "build": "17C7003j",
+          "size": 704680832
+        },
+        "deviceSupport": {
+          "build": "17C7003i",
+          "size": 100906199
+        }
+      }
+    },
+    {
+      "build": "17C528",
+      "components": {
+        "metalToolchain": {
+          "build": "17C519",
+          "size": 704681789
+        }
+      }
+    },
+    {
+      "build": "17C529",
+      "components": {
+        "metalToolchain": {
+          "build": "17C7003j",
+          "size": 704680832
+        },
+        "deviceSupport": {
+          "build": "17C7003i",
+          "size": 100906199
+        }
+      }
+    },
+    {
+      "build": "17E192",
+      "components": {
+        "metalToolchain": {
+          "build": "17E188",
+          "size": 687903347
+        }
+      }
+    },
+    {
+      "build": "17E202",
+      "components": {
+        "metalToolchain": {
+          "build": "17E188",
+          "size": 687903347
+        }
+      }
+    },
+    {
+      "build": "17E5159k",
+      "components": {
+        "metalToolchain": {
+          "build": "17E5159k",
+          "size": 687908685
+        }
+      }
+    },
+    {
+      "build": "17E5170d",
+      "components": {
+        "metalToolchain": {
+          "build": "17E5170d",
+          "size": 687911640
+        }
+      }
+    },
+    {
+      "build": "17E5179g",
+      "components": {
+        "metalToolchain": {
+          "build": "17E5179f",
+          "size": 687913266
+        }
+      }
+    },
+    {
+      "build": "17F109",
+      "components": {
+        "metalToolchain": {
+          "build": "17F109",
+          "size": 687913290
+        }
+      }
+    },
+    {
+      "build": "17F113",
+      "components": {
+        "metalToolchain": {
+          "build": "17F109",
+          "size": 687913290
+        }
+      }
+    },
+    {
+      "build": "17F42",
+      "components": {
+        "metalToolchain": {
+          "build": "17F42",
+          "size": 687909842
+        }
+      }
+    },
+    {
+      "build": "17F5012f",
+      "components": {
+        "metalToolchain": {
+          "build": "17F5012e",
+          "size": 687904429
+        }
+      }
+    },
+    {
+      "build": "17F5022i",
+      "components": {
+        "metalToolchain": {
+          "build": "17F5022i",
+          "size": 687903407
+        }
+      }
+    },
+    {
+      "build": "17F5032f",
+      "components": {
+        "metalToolchain": {
+          "build": "17F5032f",
+          "size": 687913228
+        }
+      }
+    },
+    {
+      "build": "27A266a",
+      "components": {
+        "metalToolchain": {
+          "build": "27A266a",
+          "size": 838903808
+        }
+      }
+    },
+    {
+      "build": "27A5194q",
+      "components": {
+        "metalToolchain": {
+          "build": "27A5194o",
+          "size": 805348864
+        }
+      }
+    },
+    {
+      "build": "27A5209h",
+      "components": {
+        "metalToolchain": {
+          "build": "27A5209h",
+          "size": 838904320
+        }
+      }
+    },
+    {
+      "build": "27A5218g",
+      "components": {
+        "metalToolchain": {
+          "build": "27A5218h",
+          "size": 838904320
+        }
+      }
+    },
+    {
+      "build": "27A5228h",
+      "components": {
+        "metalToolchain": {
+          "build": "27A5228f",
+          "size": 838908928
+        }
+      }
+    },
+    {
+      "build": "27A5237l",
+      "components": {
+        "metalToolchain": {
+          "build": "27A5237l",
+          "size": 838907904
+        }
+      }
+    },
+    {
+      "build": "27A5252f",
+      "components": {
+        "metalToolchain": {
+          "build": "27A5252f",
+          "size": 838908928
+        }
+      }
+    },
+    {
+      "build": "27A9269",
+      "components": {
+        "metalToolchain": {
+          "build": "27A266a",
+          "size": 838903808
+        }
+      }
+    },
+    {
+      "build": "27A9275",
+      "components": {
+        "metalToolchain": {
+          "build": "27A266a",
+          "size": 838903808
+        }
+      }
+    },
+    {
+      "build": "27B48",
+      "components": {
+        "metalToolchain": {
+          "build": "27B47",
+          "size": 838903808
+        }
+      }
+    },
+    {
+      "build": "27B5019j",
+      "components": {
+        "metalToolchain": {
+          "build": "27B5019j",
+          "size": 838919168
+        }
+      }
+    },
+    {
+      "build": "27B5028f",
+      "components": {
+        "metalToolchain": {
+          "build": "27B5028e",
+          "size": 838903808
+        }
+      }
+    },
+    {
+      "build": "27B5038j",
+      "components": {
+        "metalToolchain": {
+          "build": "27B5038h",
+          "size": 838903808
+        }
+      }
+    },
+    {
+      "build": "27B52",
+      "components": {
+        "metalToolchain": {
+          "build": "27B47",
+          "size": 838903808
+        }
+      }
+    },
+    {
+      "build": "27C5020n",
+      "components": {
+        "metalToolchain": {
+          "build": "27C5020k",
+          "size": 838903808
+        }
+      }
+    },
+    {
+      "build": "27C5035i",
+      "components": {
+        "metalToolchain": {
+          "build": "27C5035i",
+          "size": 838903808
+        }
+      }
+    }
+  ],
+  "simulators": [
+    {
+      "platform": "iOS",
+      "build": "20A5283p",
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20A5283m",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "build": "20A5303f",
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20A5303f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "build": "20A5312e",
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20A5312e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "build": "20A5328h",
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20A5328h",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "build": "20A5339d",
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20A5339d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "build": "20B5045d",
+      "sdks": [
+        {
+          "version": "16.1",
+          "build": "20B5045d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "build": "20B5056e",
+      "sdks": [
+        {
+          "version": "16.1",
+          "build": "20B5056e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "build": "20E5212f",
+      "sdks": [
+        {
+          "version": "16.4",
+          "build": "20E5212f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "build": "20E5223f",
+      "sdks": [
+        {
+          "version": "16.4",
+          "build": "20E5223f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "build": "20E5239a",
+      "sdks": [
+        {
+          "version": "16.4",
+          "build": "20E5238a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "build": "23A339",
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23A337",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "12.4",
+      "build": "16G73",
+      "name": "iOS 12.4 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2568097085,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "13.0",
+      "build": "17A577",
+      "name": "iOS 13.0 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3259109630,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "13.1",
+      "build": "17A844",
+      "name": "iOS 13.1 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3236434182,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "13.2.2",
+      "build": "17B102",
+      "name": "iOS 13.2.2 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3266187524,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "13.3",
+      "build": "17C45",
+      "name": "iOS 13.3 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3273995619,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "13.4",
+      "build": "17E255",
+      "name": "iOS 13.4 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3358930279,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "13.5",
+      "build": "17F61",
+      "name": "iOS 13.5 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3360175463,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "13.6",
+      "build": "17G64",
+      "name": "iOS 13.6 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3372430693,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "13.7",
+      "build": "17H22",
+      "name": "iOS 13.7 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3373020521,
+          "requires": {
+            "max_macos": "12.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "14.0.1",
+      "build": "18A394",
+      "name": "iOS 14.0.1 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4713624934,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "14.1",
+      "build": "18A8394",
+      "name": "iOS 14.1 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4879693158,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "14.2",
+      "build": "18B79",
+      "name": "iOS 14.2 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4913771875,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "14.3",
+      "build": "18C61",
+      "name": "iOS 14.3 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4995102054,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "14.4",
+      "build": "18D46",
+      "name": "iOS 14.4 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 5000672618,
+          "requires": {
+            "min_xcode": "13.0",
+            "min_macos": "12.0",
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "14.5",
+      "build": "18E182",
+      "name": "iOS 14.5 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 5038290278,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "15.0",
+      "build": "19A339",
+      "name": "iOS 15.0 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 5320553831,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "15.2",
+      "build": "19C51",
+      "name": "iOS 15.2 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 5381615550,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "15.4",
+      "build": "19E240",
+      "name": "iOS 15.4 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 5425406116,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "15.4",
+          "build": "19E239",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "15.5",
+      "build": "19F70",
+      "name": "iOS 15.5 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 5430783739,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "15.5",
+          "build": "19F64",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "16.0",
+      "build": "20A360",
+      "name": "iOS 16 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 6280680540,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20A360",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "16.1",
+      "build": "20B72",
+      "name": "iOS 16.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 6325927910,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "16.1",
+          "build": "20B71",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "16.2",
+      "build": "20C52",
+      "name": "iOS 16.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 6407069874,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "16.2",
+          "build": "20C52",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "16.4",
+      "build": "20E247",
+      "name": "iOS 16.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 6182486138,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "16.4",
+          "build": "20E238",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.0",
+      "build": "21A328",
+      "name": "iOS 17.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 7559529352
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21A325",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.0",
+      "build": "21A5248u",
+      "name": "iOS 17.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7534187147
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21A5248u",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.0",
+      "build": "21A5268h",
+      "name": "iOS 17.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7529869240
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21A5268f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.0",
+      "build": "21A5277g",
+      "name": "iOS 17.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7539550179
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21A5277g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.0",
+      "build": "21A5291g",
+      "name": "iOS 17.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7426213630
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21A5291f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.0",
+      "build": "21A5303d",
+      "name": "iOS 17.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7444787289
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21A5303c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.0",
+      "build": "21A5317a",
+      "name": "iOS 17.0 beta 7 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7473045603
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21A5317a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.0",
+      "build": "21A5326a",
+      "name": "iOS 17.0 beta 8 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7471428352
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21A5325a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.0.1",
+      "build": "21A342",
+      "name": "iOS 17.0.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 7210691623
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21A326",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.2",
+      "build": "21C5029e",
+      "name": "iOS 17.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7260648755
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.2",
+          "build": "21C5029d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.2",
+      "build": "21C5046b",
+      "name": "iOS 17.2 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7246858147
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.2",
+          "build": "21C5046b",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.2",
+      "build": "21C62",
+      "name": "iOS 17.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 7351124481
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.2",
+          "build": "21C52",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.4",
+      "build": "21E213",
+      "name": "iOS 17.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 7229057541
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.4",
+          "build": "21E212",
+          "preferred": false
+        },
+        {
+          "version": "17.4",
+          "build": "21E210",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.4",
+      "build": "21E5184i",
+      "name": "iOS 17.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7213247348
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.4",
+          "build": "21E5184g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.4",
+      "build": "21E5195d",
+      "name": "iOS 17.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7222773540
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.4",
+          "build": "21E5195d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.4",
+      "build": "21E5200d",
+      "name": "iOS 17.4 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7222465825
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.4",
+          "build": "21E5200b",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.5",
+      "build": "21F5058d",
+      "name": "iOS 17.5 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7242176173
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.5",
+          "build": "21F5058d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "17.5",
+      "build": "21F79",
+      "name": "iOS 17.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 7336630623
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.5",
+          "build": "21F77",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.0",
+      "build": "22A3351",
+      "name": "iOS 18.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8388651290
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22A348",
+          "preferred": false
+        },
+        {
+          "version": "18.0",
+          "build": "22A3362",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.0",
+      "build": "22A5282m",
+      "name": "iOS 18.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8455760175
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22A5282g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.0",
+      "build": "22A5297f",
+      "name": "iOS 18.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8254433558
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22A5297f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.0",
+      "build": "22A5307f",
+      "name": "iOS 18.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8254433585
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22A5307d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.0",
+      "build": "22A5316j",
+      "name": "iOS 18.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8589977924
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22A5316f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.0",
+      "build": "22A5326g",
+      "name": "iOS 18.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8858435313
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22A5326g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.0",
+      "build": "22A5346a",
+      "name": "iOS 18.0 beta 7 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8187324729
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22A5342a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.1",
+      "build": "22B5023e",
+      "name": "iOS 18.1 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8858435409
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.1",
+          "build": "22B5023b",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.1",
+      "build": "22B5045f",
+      "name": "iOS 18.1 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8992653148
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.1",
+          "build": "22B5045f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.1",
+      "build": "22B5069a",
+      "name": "iOS 18.1 beta 6 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8522869038
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.1",
+          "build": "22B5067a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.1",
+      "build": "22B81",
+      "name": "iOS 18.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8589978857
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.1",
+          "build": "22B74",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.2",
+      "build": "22C150",
+      "name": "iOS 18.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8724217632
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.2",
+          "build": "22C146",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.2",
+      "build": "22C5109p",
+      "name": "iOS 18.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8724195656
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.2",
+          "build": "22C5109l",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.2",
+      "build": "22C5125e",
+      "name": "iOS 18.2 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8724217657
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.2",
+          "build": "22C5125d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.2",
+      "build": "22C5142a",
+      "name": "iOS 18.2 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8724217485
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.2",
+          "build": "22C5142a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.3.1",
+      "build": "22D8075",
+      "name": "iOS 18.3.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8724195680
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.2",
+          "build": "22C146",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.4",
+      "build": "22E238",
+      "name": "iOS 18.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8858434688
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.4",
+          "build": "22E235",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.4",
+      "build": "22E5200m",
+      "name": "iOS 18.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8724195650
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.4",
+          "build": "22E5200l",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.4",
+      "build": "22E5216h",
+      "name": "iOS 18.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8858413411
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.4",
+          "build": "22E5216d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.4",
+      "build": "22E5232a",
+      "name": "iOS 18.4 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8858434735
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.4",
+          "build": "22E5231a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.5",
+      "build": "22F5067a",
+      "name": "iOS 18.5 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8858609312
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.5",
+          "build": "22F5065a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.5",
+      "build": "22F77",
+      "name": "iOS 18.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8858598681
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.5",
+          "build": "22F76",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "18.6",
+      "build": "22G86",
+      "name": "iOS 18.6 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8858413428
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.5",
+          "build": "22F76",
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.0",
+      "build": "23A343",
+      "name": "iOS 26.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10066611438
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7986028446
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23A337",
+          "preferred": true
+        },
+        {
+          "version": "26.0",
+          "build": "23A339",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.0",
+      "build": "23A5260l",
+      "name": "iOS 26.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10066607577
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23A5260k",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.0",
+      "build": "23A5276e",
+      "name": "iOS 26.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10737680266
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8590010746
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23A5276f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.0",
+      "build": "23A5287g",
+      "name": "iOS 26.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10469266376
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8455792929
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23A5287e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.0",
+      "build": "23A5297i",
+      "name": "iOS 26.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10335047280
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8321575423
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23A5297f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.0",
+      "build": "23A5308g",
+      "name": "iOS 26.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9663956067
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7650481786
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23A5308f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.0",
+      "build": "23A5326a",
+      "name": "iOS 26.0 beta 6 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9932393274
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7851810212
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23A5324a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.0.1",
+      "build": "23A8464",
+      "name": "iOS 26.0.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10066610754
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8053137579
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23A339",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.1",
+      "build": "23B5044k",
+      "name": "iOS 26.1 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 11006121259
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8992666749
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23B5044i",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.1",
+      "build": "23B5059e",
+      "name": "iOS 26.1 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10737683585
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8724228698
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23B5059c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.1",
+      "build": "23B5073a",
+      "name": "iOS 26.1 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10335047855
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8321575539
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23B5072a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.1",
+      "build": "23B80",
+      "name": "iOS 26.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10335047223
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8321575812
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23B77",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.1",
+      "build": "23B86",
+      "name": "iOS 26.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10335047072
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8321575375
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23B77",
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.2",
+      "build": "23C5027f",
+      "name": "iOS 26.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10469265435
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8388683841
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23C5027e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.2",
+      "build": "23C5044b",
+      "name": "iOS 26.2 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10469265981
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8388684363
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23C5044a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.2",
+      "build": "23C52",
+      "name": "iOS 26.2 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10469265397
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8388683927
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23C50",
+          "preferred": false
+        },
+        {
+          "version": "26.2",
+          "build": "23C53",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.2",
+      "build": "23C54",
+      "name": "iOS 26.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10469266238
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8388683973
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23C53",
+          "preferred": false
+        },
+        {
+          "version": "26.2",
+          "build": "23C57",
+          "preferred": false
+        },
+        {
+          "version": "26.2",
+          "build": "23C50",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.3.1",
+      "build": "23D8133",
+      "name": "iOS 26.3.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10469266301
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8388684320
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23C53",
+          "preferred": false
+        },
+        {
+          "version": "26.2",
+          "build": "23C57",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.4",
+      "build": "23E244",
+      "name": "iOS 26.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603482987
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8455792717
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23E237",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.4",
+      "build": "23E5207p",
+      "name": "iOS 26.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603484441
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8455792614
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23E5207p",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.4",
+      "build": "23E5218e",
+      "name": "iOS 26.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10871919597
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8724229518
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23E5218c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.4",
+      "build": "23E5234a",
+      "name": "iOS 26.4 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603483229
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8455793016
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23E5233a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.4.1",
+      "build": "23E254a",
+      "name": "iOS 26.4.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603483985
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8455793022
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23E252",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.5",
+      "build": "23F5043g",
+      "name": "iOS 26.5 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603483045
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8455793202
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23F5043e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.5",
+      "build": "23F5054h",
+      "name": "iOS 26.5 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603482944
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8522901798
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23F5054d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.5",
+      "build": "23F5069b",
+      "name": "iOS 26.5 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603482980
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8522901359
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23F5067a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.5",
+      "build": "23F73",
+      "name": "iOS 26.5 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603483874
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8522901855
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23F73",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "26.5",
+      "build": "23F77",
+      "name": "iOS 26.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603484383
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8522901969
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23F73",
+          "preferred": false
+        },
+        {
+          "version": "26.5",
+          "build": "23F81a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.0",
+      "build": "24A434",
+      "name": "iOS 27.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8053150208
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24A430",
+          "preferred": false
+        },
+        {
+          "version": "27.1",
+          "build": "24A94403",
+          "preferred": true
+        },
+        {
+          "version": "27.1",
+          "build": "24A94232",
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.0",
+      "build": "24A5355p",
+      "name": "iOS 27.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8388696576
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24A5355p",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.0",
+      "build": "24A5370g",
+      "name": "iOS 27.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8388697088
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24A5370g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.0",
+      "build": "24A5380g",
+      "name": "iOS 27.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8053150208
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24A5380g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.0",
+      "build": "24A5380i",
+      "name": "iOS 27.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7986041344
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24A5380g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.0",
+      "build": "24A5390f",
+      "name": "iOS 27.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8053150720
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24A5390e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.0",
+      "build": "24A5408d",
+      "name": "iOS 27.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7986040832
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24A5408c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.0",
+      "build": "24A5423a",
+      "name": "iOS 27.0 beta 6 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7986041344
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24A5422a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.1",
+      "build": "24A94232",
+      "name": "iOS 27.1 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7851822592
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.1",
+          "build": "24A94232",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.1",
+      "build": "24A94401",
+      "name": "iOS 27.1 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7851822592,
+          "requires": {
+            "min_xcode": "27.1.0",
+            "max_xcode": "27.1.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.1",
+          "build": "24A94403",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.1",
+      "build": "24A94425",
+      "name": "iOS 27.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7851823104
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.1",
+          "build": "24A94232",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.2",
+      "build": "24B114",
+      "name": "iOS 27.2 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8321588736
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24B113",
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.2",
+      "build": "24B5084k",
+      "name": "iOS 27.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8187368448
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24B5084k",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.2",
+      "build": "24B5089g",
+      "name": "iOS 27.2 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8187368448
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24B5089g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.2",
+      "build": "24B5110a",
+      "name": "iOS 27.2 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8254478336
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24B5109a",
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.2",
+      "build": "24B8117",
+      "name": "iOS 27.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8321588736
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24B8118",
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.2",
+      "build": "24B91011",
+      "name": "iOS 27.2 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8053150720
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24B5109a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.2",
+      "build": "24B91014",
+      "name": "iOS 27.2 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8053150720
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24B113",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.2",
+      "build": "24B91016s",
+      "name": "iOS 27.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8321588736
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24B113",
+          "preferred": false
+        },
+        {
+          "version": "27.2",
+          "build": "24B8118",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.3",
+      "build": "24C5037i",
+      "name": "iOS 27.3 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8522915328
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.3",
+          "build": "24C5037e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "iOS",
+      "version": "27.3",
+      "build": "24C5049d",
+      "name": "iOS 27.3 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8992677376
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.3",
+          "build": "24C5049b",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "build": "20J5299n",
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20J5299n",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "build": "20J5319f",
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20J5319f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "build": "20J5328e",
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20J5328e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "build": "20J5344e",
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20J5344e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "build": "20J5355f",
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20J5355f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "build": "20K5041d",
+      "sdks": [
+        {
+          "version": "16.1",
+          "build": "20K5041d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "build": "20K5052c",
+      "sdks": [
+        {
+          "version": "16.1",
+          "build": "20K5052c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "build": "20L5463g",
+      "sdks": [
+        {
+          "version": "16.4",
+          "build": "20L5463g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "build": "20L5474e",
+      "sdks": [
+        {
+          "version": "16.4",
+          "build": "20L5474e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "build": "20L5489a",
+      "sdks": [
+        {
+          "version": "16.4",
+          "build": "20L5489a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "12.4",
+      "build": "16M567",
+      "name": "tvOS 12.4 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 1173622072,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "13.0",
+      "build": "17J585",
+      "name": "tvOS 13.0 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 1527451908,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "13.2",
+      "build": "17K90",
+      "name": "tvOS 13.2 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 1543966986,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "13.3",
+      "build": "17K446",
+      "name": "tvOS 13.3 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 1545942369,
+          "requires": {
+            "max_macos": "12.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "13.4",
+      "build": "17L255",
+      "name": "tvOS 13.4 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 1587361125,
+          "requires": {
+            "max_macos": "12.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "14.0",
+      "build": "18J383",
+      "name": "tvOS 14.0 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2558604649,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "14.2",
+      "build": "18K54",
+      "name": "tvOS 14.2 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2582001001,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "14.3",
+      "build": "18K559",
+      "name": "tvOS 14.3 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2641311079,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "14.4",
+      "build": "18K802",
+      "name": "tvOS 14.4 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2641114477,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "14.5",
+      "build": "18L191",
+      "name": "tvOS 14.5 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2680763745,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "15.0",
+      "build": "19J344",
+      "name": "tvOS 15.0 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2885039465,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "15.2",
+      "build": "19K50",
+      "name": "tvOS 15.2 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2925258636,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "15.4",
+      "build": "19L439",
+      "name": "tvOS 15.4 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2978051897,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "16.0",
+      "build": "20J373",
+      "name": "tvOS 16 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3304605822,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "16.0",
+          "build": "20J373",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "16.1",
+      "build": "20K67",
+      "name": "tvOS 16.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3363890340,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "16.1",
+          "build": "20K67",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "16.4",
+      "build": "20L494",
+      "name": "tvOS 16.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3457045786,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "16.4",
+          "build": "20L489",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.0",
+      "build": "21J353",
+      "name": "tvOS 17.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3745733256
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21J351",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.0",
+      "build": "21J5273p",
+      "name": "tvOS 17.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3717677009
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21J5273p",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.0",
+      "build": "21J5293g",
+      "name": "tvOS 17.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3729832117
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21J5293e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.0",
+      "build": "21J5303f",
+      "name": "tvOS 17.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3720466264
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21J5303f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.0",
+      "build": "21J5318f",
+      "name": "tvOS 17.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3731019943
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21J5318e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.0",
+      "build": "21J5330e",
+      "name": "tvOS 17.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3741420984
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21J5330e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.0",
+      "build": "21J5345a",
+      "name": "tvOS 17.0 beta 7 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3742265308
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21J5345a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.0",
+      "build": "21J5352a",
+      "name": "tvOS 17.0 beta 8 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3742286199
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.0",
+          "build": "21J5351a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.2",
+      "build": "21K364",
+      "name": "tvOS 17.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3614589863
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.2",
+          "build": "21K354",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.2",
+      "build": "21K5330e",
+      "name": "tvOS 17.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3596357538
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.2",
+          "build": "21K5330d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.2",
+      "build": "21K5348e",
+      "name": "tvOS 17.2 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3596357538
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.2",
+          "build": "21K5348e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.4",
+      "build": "21L224",
+      "name": "tvOS 17.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3684590746
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.4",
+          "build": "21L224",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.4",
+      "build": "21L5195h",
+      "name": "tvOS 17.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3676443535
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.4",
+          "build": "21L5195f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.4",
+      "build": "21L5206e",
+      "name": "tvOS 17.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3681686957
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.4",
+          "build": "21L5206e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.4",
+      "build": "21L5212d",
+      "name": "tvOS 17.4 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3677820151
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.4",
+          "build": "21L5212c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.5",
+      "build": "21L5553e",
+      "name": "tvOS 17.5 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3689232665
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.5",
+          "build": "21L5553d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "17.5",
+      "build": "21L569",
+      "name": "tvOS 17.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3699567550
+        }
+      ],
+      "sdks": [
+        {
+          "version": "17.5",
+          "build": "21L566",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.0",
+      "build": "22J356",
+      "name": "tvOS 18.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4227895959
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22J355",
+          "preferred": false
+        },
+        {
+          "version": "18.0",
+          "build": "22J358",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.0",
+      "build": "22J5290l",
+      "name": "tvOS 18.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4160787106
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22J5290f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.0",
+      "build": "22J5305e",
+      "name": "tvOS 18.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4295004853
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22J5305d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.0",
+      "build": "22J5315e",
+      "name": "tvOS 18.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4227895970
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22J5315c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.0",
+      "build": "22J5324f",
+      "name": "tvOS 18.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4295004844
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22J5324f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.0",
+      "build": "22J5335e",
+      "name": "tvOS 18.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4160787113
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22J5335e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.0",
+      "build": "22J5352a",
+      "name": "tvOS 18.0 beta 7 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4160787095
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.0",
+          "build": "22J5350a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.1",
+      "build": "22J5543e",
+      "name": "tvOS 18.1 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4227895975
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.1",
+          "build": "22J5543e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.1",
+      "build": "22J5567a",
+      "name": "tvOS 18.1 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4227895979
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.1",
+          "build": "22J5565a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.1",
+      "build": "22J578",
+      "name": "tvOS 18.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4227895964
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.1",
+          "build": "22J572",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.2",
+      "build": "22K154",
+      "name": "tvOS 18.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4362113677
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.2",
+          "build": "22K152",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.2",
+      "build": "22K5132e",
+      "name": "tvOS 18.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4227895971
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.2",
+          "build": "22K5132d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.2",
+      "build": "22K5148a",
+      "name": "tvOS 18.2 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4362113694
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.2",
+          "build": "22K5148a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.4",
+      "build": "22L254",
+      "name": "tvOS 18.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4429222603
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.4",
+          "build": "22L251",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.4",
+      "build": "22L5218l",
+      "name": "tvOS 18.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4496331445
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.4",
+          "build": "22L5218k",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.4",
+      "build": "22L5234e",
+      "name": "tvOS 18.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4429222625
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.4",
+          "build": "22L5234d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.4",
+      "build": "22L5250a",
+      "name": "tvOS 18.4 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4429222632
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.4",
+          "build": "22L5249a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.5",
+      "build": "22L5565a",
+      "name": "tvOS 18.5 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4429407845
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.5",
+          "build": "22L5564a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "18.5",
+      "build": "22L572",
+      "name": "tvOS 18.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4429408045
+        }
+      ],
+      "sdks": [
+        {
+          "version": "18.5",
+          "build": "22L572",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.0",
+      "build": "23J352",
+      "name": "tvOS 26.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4832080449
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623937386
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23J351",
+          "preferred": false
+        },
+        {
+          "version": "26.0",
+          "build": "23J352",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.0",
+      "build": "23J5279m",
+      "name": "tvOS 26.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4966294459
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23J5279j",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.0",
+      "build": "23J5295e",
+      "name": "tvOS 26.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4966298577
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3691044620
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23J5295f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.0",
+      "build": "23J5306f",
+      "name": "tvOS 26.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4899189330
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623936929
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23J5306e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.0",
+      "build": "23J5316g",
+      "name": "tvOS 26.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4832094598
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3556827038
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23J5316f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.0",
+      "build": "23J5327g",
+      "name": "tvOS 26.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4832094632
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623937239
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23J5327f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.0",
+      "build": "23J5346a",
+      "name": "tvOS 26.0 beta 6 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4832096488
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623936855
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23J5344a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.1",
+      "build": "23J5543j",
+      "name": "tvOS 26.1 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4832080396
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623952636
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23J5543i",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.1",
+      "build": "23J5558d",
+      "name": "tvOS 26.1 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4832080497
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623937489
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23J5558c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.1",
+      "build": "23J5571a",
+      "name": "tvOS 26.1 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4899203666
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623936745
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23J5571a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.1",
+      "build": "23J579",
+      "name": "tvOS 26.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4899189889
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623952844
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23J576",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.2",
+      "build": "23K5029e",
+      "name": "tvOS 26.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4899205315
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623936723
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23K5029d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.2",
+      "build": "23K5046a",
+      "name": "tvOS 26.2 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4899205174
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623952746
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23K5046a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.2",
+      "build": "23K51",
+      "name": "tvOS 26.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4899205186
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623936883
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23K50",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.4",
+      "build": "23L243",
+      "name": "tvOS 26.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033424181
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758147256
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23L236",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.4",
+      "build": "23L243a",
+      "name": "tvOS 26.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033442413
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758155172
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23L236",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.4",
+      "build": "23L5208m",
+      "name": "tvOS 26.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033424043
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758154654
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23L5208m",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.4",
+      "build": "23L5219e",
+      "name": "tvOS 26.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033426513
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758162849
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23L5219c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.4",
+      "build": "23L5234a",
+      "name": "tvOS 26.4 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033442208
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758147360
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23L5233a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.5",
+      "build": "23L470",
+      "name": "tvOS 26.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033424699
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758154684
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23L470",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.5",
+      "build": "23L5443g",
+      "name": "tvOS 26.5 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033426420
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758155047
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23L5443e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.5",
+      "build": "23L5455c",
+      "name": "tvOS 26.5 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033426522
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758170323
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23L5455c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "26.5",
+      "build": "23L5468a",
+      "name": "tvOS 26.5 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033426443
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758154819
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23L5467a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.0",
+      "build": "24J360",
+      "name": "tvOS 27.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758153728
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24J360",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.0",
+      "build": "24J5289o",
+      "name": "tvOS 27.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959498240
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24J5289o",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.0",
+      "build": "24J5305f",
+      "name": "tvOS 27.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 4026591744
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24J5305f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.0",
+      "build": "24J5315h",
+      "name": "tvOS 27.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825262592
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24J5315h",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.0",
+      "build": "24J5325d",
+      "name": "tvOS 27.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758153728
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24J5325d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.0",
+      "build": "24J5346a",
+      "name": "tvOS 27.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758153728
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24J5346a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.0",
+      "build": "24J5356a",
+      "name": "tvOS 27.0 beta 6 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758146560
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24J5356a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.2",
+      "build": "24K118",
+      "name": "tvOS 27.2 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758154752
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24K117",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.2",
+      "build": "24K150",
+      "name": "tvOS 27.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758154240
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24K122",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.2",
+      "build": "24K5088l",
+      "name": "tvOS 27.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758153728
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24K5088l",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.2",
+      "build": "24K5093g",
+      "name": "tvOS 27.2 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758153728
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24K5093g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.3",
+      "build": "24K5286g",
+      "name": "tvOS 27.3 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825263104
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.3",
+          "build": "24K5286e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "tvOS",
+      "version": "27.3",
+      "build": "24K5298d",
+      "name": "tvOS 27.3 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825263616
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.3",
+          "build": "24K5298b",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "1.0",
+      "build": "21N305",
+      "name": "xrOS 1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 7163594938,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "1.0",
+          "build": "21N301",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "1.0",
+      "build": "21N5165g",
+      "name": "xrOS 1 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7354535384,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "1.0",
+          "build": "21N5165f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "1.0",
+      "build": "21N5207f",
+      "name": "xrOS 1 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7220726735,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "1.0",
+          "build": "21N5207e",
+          "preferred": false
+        },
+        {
+          "version": "1.0",
+          "build": "21N5207h",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "1.0",
+      "build": "21N5233f",
+      "name": "xrOS 1 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7281422409,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "1.0",
+          "build": "21N5233e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "1.0",
+      "build": "21N5259j",
+      "name": "xrOS 1 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7071092104,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "1.0",
+          "build": "21N5259i",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "1.0",
+      "build": "21N5300a",
+      "name": "xrOS 1 beta 6 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7160992014,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "1.0",
+          "build": "21N5295a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "1.1",
+      "build": "21O209",
+      "name": "xrOS 1.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 6796687016,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "1.1",
+          "build": "21O200",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "1.1",
+      "build": "21O5181e",
+      "name": "xrOS 1.1 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 6792905436,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "1.1",
+          "build": "21O5181e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "1.1",
+      "build": "21O5188c",
+      "name": "xrOS 1.1 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 6790205536,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "1.1",
+          "build": "21O5188b",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "1.2",
+      "build": "21O5565d",
+      "name": "visionOS 1.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 6930650472
+        }
+      ],
+      "sdks": [
+        {
+          "version": "1.2",
+          "build": "21O5565d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.0",
+      "build": "22N318",
+      "name": "visionOS 2.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8455760172
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.0",
+          "build": "22N316",
+          "preferred": false
+        },
+        {
+          "version": "2.0",
+          "build": "22N331",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.0",
+      "build": "22N5252m",
+      "name": "visionOS 2.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8187324743
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.0",
+          "build": "22N5252g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.0",
+      "build": "22N5267g",
+      "name": "visionOS 2.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8254433594
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.0",
+          "build": "22N5267d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.0",
+      "build": "22N5277f",
+      "name": "visionOS 2.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8187324737
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.0",
+          "build": "22N5277d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.0",
+      "build": "22N5286g",
+      "name": "visionOS 2.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8522869036
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.0",
+          "build": "22N5286f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.0",
+      "build": "22N5297g",
+      "name": "visionOS 2.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8388651328
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.0",
+          "build": "22N5297d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.0",
+      "build": "22N5314a",
+      "name": "visionOS 2.0 beta 7 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8388673269
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.0",
+          "build": "22N5312a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.1",
+      "build": "22N5548c",
+      "name": "visionOS 2.1 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8455783060
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.1",
+          "build": "22N5548c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.1",
+      "build": "22N5567a",
+      "name": "visionOS 2.1 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8455760207
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.1",
+          "build": "22N5566a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.1",
+      "build": "22N580",
+      "name": "visionOS 2.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8455782126
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.1",
+          "build": "22N573",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.2",
+      "build": "22N5778f",
+      "name": "visionOS 2.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8858435394
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.2",
+          "build": "22N5778e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.2",
+      "build": "22N5794a",
+      "name": "visionOS 2.2 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8858435354
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.2",
+          "build": "22N5794a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.2",
+      "build": "22N840",
+      "name": "visionOS 2.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8858435373
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.2",
+          "build": "22N799",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.3",
+      "build": "22N895",
+      "name": "visionOS 2.3 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8858435609
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.2",
+          "build": "22N799",
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.4",
+      "build": "22O237",
+      "name": "visionOS 2.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8254455816
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.4",
+          "build": "22O233",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.4",
+      "build": "22O5199n",
+      "name": "visionOS 2.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8187324766
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.4",
+          "build": "22O5199l",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.4",
+      "build": "22O5215f",
+      "name": "visionOS 2.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8254433667
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.4",
+          "build": "22O5215d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.4",
+      "build": "22O5231b",
+      "name": "visionOS 2.4 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8254455696
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.4",
+          "build": "22O5230a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.5",
+      "build": "22O473",
+      "name": "visionOS 2.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8254628585
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.5",
+          "build": "22O473",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "2.5",
+      "build": "22O5467a",
+      "name": "visionOS 2.5 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8254628533
+        }
+      ],
+      "sdks": [
+        {
+          "version": "2.5",
+          "build": "22O5464a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.0",
+      "build": "23M336",
+      "name": "visionOS 26.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 8992864727
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 6979390487
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23M335",
+          "preferred": false
+        },
+        {
+          "version": "26.0",
+          "build": "23M336",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.0",
+      "build": "23M5263m",
+      "name": "visionOS 26.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9261298005
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23M5263k",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.0",
+      "build": "23M5279f",
+      "name": "visionOS 26.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395520026
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7382046080
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23M5279g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.0",
+      "build": "23M5290f",
+      "name": "visionOS 26.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395519936
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7382046047
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23M5290e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.0",
+      "build": "23M5300g",
+      "name": "visionOS 26.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9261301111
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7247826123
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23M5300f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.0",
+      "build": "23M5311g",
+      "name": "visionOS 26.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9127082565
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7113607904
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23M5311f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.0",
+      "build": "23M5328a",
+      "name": "visionOS 26.0 beta 6 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 8992865240
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 6979390441
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23M5327a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.1",
+      "build": "23N47",
+      "name": "visionOS 26.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9127083141
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7180717359
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23N45",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.1",
+      "build": "23N5013j",
+      "name": "visionOS 26.1 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9127082601
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7113608467
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23N5013i",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.1",
+      "build": "23N5028d",
+      "name": "visionOS 26.1 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9127082836
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7180717399
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23N5028c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.1",
+      "build": "23N5041b",
+      "name": "visionOS 26.1 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9127083168
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7180717738
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23N5041a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.2",
+      "build": "23N301",
+      "name": "visionOS 26.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9261300898
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7180717014
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23N301",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.2",
+      "build": "23N5279e",
+      "name": "visionOS 26.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9261300705
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7180716980
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23N5279d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.2",
+      "build": "23N5296a",
+      "name": "visionOS 26.2 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9261300560
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7180716966
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23N5296a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.4",
+      "build": "23O243",
+      "name": "visionOS 26.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395538444
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314936057
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23O238",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.4",
+      "build": "23O5209m",
+      "name": "visionOS 26.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395520413
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314936109
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23O5209m",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.4",
+      "build": "23O5220e",
+      "name": "visionOS 26.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395538684
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314935994
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23O5220c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.4",
+      "build": "23O5235a",
+      "name": "visionOS 26.4 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395538787
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314936026
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23O5233a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.4.1",
+      "build": "23O249a",
+      "name": "visionOS 26.4.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395538775
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314935697
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23O248",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.5",
+      "build": "23O470",
+      "name": "visionOS 26.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395538951
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314935939
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23O469",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.5",
+      "build": "23O5441g",
+      "name": "visionOS 26.5 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395538406
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314935992
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23O5441e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.5",
+      "build": "23O5453d",
+      "name": "visionOS 26.5 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395538388
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314936151
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23O5453d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "26.5",
+      "build": "23O5467a",
+      "name": "visionOS 26.5 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395538422
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314936062
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23O5466a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.0",
+      "build": "24M362",
+      "name": "visionOS 27.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7516275712
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24M361",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.0",
+      "build": "24M5291p",
+      "name": "visionOS 27.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7784712192
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24M5291p",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.0",
+      "build": "24M5306g",
+      "name": "visionOS 27.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7851823104
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24M5306g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.0",
+      "build": "24M5316i",
+      "name": "visionOS 27.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7516276224
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24M5316i",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.0",
+      "build": "24M5326f",
+      "name": "visionOS 27.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7516276224
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24M5326e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.0",
+      "build": "24M5348a",
+      "name": "visionOS 27.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7516276224
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24M5347a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.0",
+      "build": "24M5357a",
+      "name": "visionOS 27.0 beta 6 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7516276224
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24M5357a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.2",
+      "build": "24N118",
+      "name": "visionOS 27.2 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7650494976
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24N117",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.2",
+      "build": "24N120",
+      "name": "visionOS 27.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7650494976
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24N120",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.2",
+      "build": "24N5088l",
+      "name": "visionOS 27.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7583385088
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24N5088l",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.2",
+      "build": "24N5093f",
+      "name": "visionOS 27.2 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7583385088
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24N5093f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.2",
+      "build": "24N5114a",
+      "name": "visionOS 27.2 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7650494976
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24N5112a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.3",
+      "build": "24N5286r",
+      "name": "visionOS 27.3 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7717603840
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.3",
+          "build": "24N5286e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "visionOS",
+      "version": "27.3",
+      "build": "24N5298d",
+      "name": "visionOS 27.3 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7717603840
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.3",
+          "build": "24N5298b",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "20R5287p",
+      "sdks": [
+        {
+          "version": "9.0",
+          "build": "20R5287p",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "20R5307f",
+      "sdks": [
+        {
+          "version": "9.0",
+          "build": "20R5307f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "20R5316e",
+      "sdks": [
+        {
+          "version": "9.0",
+          "build": "20R5316e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "20R5332f",
+      "sdks": [
+        {
+          "version": "9.0",
+          "build": "20R5332f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "20R5343e",
+      "sdks": [
+        {
+          "version": "9.0",
+          "build": "20R5343e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "20S5044e",
+      "sdks": [
+        {
+          "version": "9.1",
+          "build": "20S5044e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "20S5055e",
+      "sdks": [
+        {
+          "version": "9.1",
+          "build": "20S5055d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "20T5222f",
+      "sdks": [
+        {
+          "version": "9.4",
+          "build": "20T5222f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "20T5233d",
+      "sdks": [
+        {
+          "version": "9.4",
+          "build": "20T5233d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "20T5248a",
+      "sdks": [
+        {
+          "version": "9.4",
+          "build": "20T5248a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "build": "23R351",
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23R351",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "6.0",
+      "build": "17R575",
+      "name": "watchOS 6.0 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2019561727,
+          "requires": {
+            "max_macos": "12.99",
+            "excluded_architectures": [
+              "arm64"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "6.1.1",
+      "build": "17S445",
+      "name": "watchOS 6.1.1 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2049324382,
+          "requires": {
+            "max_macos": "12.99",
+            "excluded_architectures": [
+              "arm64"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "6.2.1",
+      "build": "17T531",
+      "name": "watchOS 6.2.1 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2086483296,
+          "requires": {
+            "max_macos": "12.99",
+            "excluded_architectures": [
+              "arm64"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "7.0",
+      "build": "18R382",
+      "name": "watchOS 7.0 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2888840554,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "7.1",
+      "build": "18R579",
+      "name": "watchOS 7.1 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2907714927,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "7.2",
+      "build": "18S561",
+      "name": "watchOS 7.2 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2944480613,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "7.4",
+      "build": "18T187",
+      "name": "watchOS 7.4 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2978887016,
+          "requires": {
+            "max_macos": "13.3.99"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "8.0",
+      "build": "19R345",
+      "name": "watchOS 8.0 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2673227110,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "8.3",
+      "build": "19S51",
+      "name": "watchOS 8.3 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2736423742,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "8.5",
+      "build": "19T241",
+      "name": "watchOS 8.5 Simulator",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 2761197840,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "9.0",
+      "build": "20R362",
+      "name": "watchOS 9 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3604135917,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "9.0",
+          "build": "20R362",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "9.1",
+      "build": "20S75",
+      "name": "watchOS 9.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3627381860,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "9.1",
+          "build": "20S71",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "9.4",
+      "build": "20T253",
+      "name": "watchOS 9.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3597497121,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ],
+      "sdks": [
+        {
+          "version": "9.4",
+          "build": "20T248",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.0",
+      "build": "21R355",
+      "name": "watchOS 10.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4023631243
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.0",
+          "build": "21R354",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.0",
+      "build": "21R5275s",
+      "name": "watchOS 10.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3912372147
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.0",
+          "build": "21R5275s",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.0",
+      "build": "21R5295g",
+      "name": "watchOS 10.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3932198802
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.0",
+          "build": "21R5295e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.0",
+      "build": "21R5305e",
+      "name": "watchOS 10.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3940113534
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.0",
+          "build": "21R5305e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.0",
+      "build": "21R5320g",
+      "name": "watchOS 10.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3942699486
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.0",
+          "build": "21R5320f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.0",
+      "build": "21R5332f",
+      "name": "watchOS 10.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3955723217
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.0",
+          "build": "21R5332e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.0",
+      "build": "21R5346a",
+      "name": "watchOS 10.0 beta 7 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3961182505
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.0",
+          "build": "21R5346a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.0",
+      "build": "21R5355a",
+      "name": "watchOS 10.0 beta 8 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3961327650
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.0",
+          "build": "21R5354a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.2",
+      "build": "21S364",
+      "name": "watchOS 10.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3861225125
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.2",
+          "build": "21S355",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.2",
+      "build": "21S5331e",
+      "name": "watchOS 10.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3877520915
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.2",
+          "build": "21S5331d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.2",
+      "build": "21S5349d",
+      "name": "watchOS 10.2 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3854151358
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.2",
+          "build": "21S5349d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.4",
+      "build": "21T214",
+      "name": "watchOS 10.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3930693750
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.4",
+          "build": "21T214",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.4",
+      "build": "21T5185f",
+      "name": "watchOS 10.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3861225125
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.4",
+          "build": "21T5185f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.4",
+      "build": "21T5196c",
+      "name": "watchOS 10.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3927704688
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.4",
+          "build": "21T5196c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.4",
+      "build": "21T5202d",
+      "name": "watchOS 10.4 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3925760180
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.4",
+          "build": "21T5202c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.5",
+      "build": "21T5555c",
+      "name": "watchOS 10.5 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3938018603
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.5",
+          "build": "21T5555c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "10.5",
+      "build": "21T575",
+      "name": "watchOS 10.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3946536779
+        }
+      ],
+      "sdks": [
+        {
+          "version": "10.5",
+          "build": "21T569",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.0",
+      "build": "22R349",
+      "name": "watchOS 11.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4496331408
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.0",
+          "build": "22R349",
+          "preferred": false
+        },
+        {
+          "version": "11.0",
+          "build": "22R350",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.0",
+      "build": "22R5284o",
+      "name": "watchOS 11.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4227895988
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.0",
+          "build": "22R5284g",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.0",
+      "build": "22R5299d",
+      "name": "watchOS 11.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4227895950
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.0",
+          "build": "22R5299c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.0",
+      "build": "22R5309f",
+      "name": "watchOS 11.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4227895999
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.0",
+          "build": "22R5309d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.0",
+      "build": "22R5318h",
+      "name": "watchOS 11.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4295004855
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.0",
+          "build": "22R5318f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.0",
+      "build": "22R5328f",
+      "name": "watchOS 11.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4227895988
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.0",
+          "build": "22R5328f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.0",
+      "build": "22R5346a",
+      "name": "watchOS 11.0 beta 7 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4227895989
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.0",
+          "build": "22R5344a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.1",
+      "build": "22R5545f",
+      "name": "watchOS 11.1 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4496331452
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.1",
+          "build": "22R5545f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.1",
+      "build": "22R5569a",
+      "name": "watchOS 11.1 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4496331457
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.1",
+          "build": "22R5567a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.1",
+      "build": "22R581",
+      "name": "watchOS 11.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4496331455
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.1",
+          "build": "22R574",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.2",
+      "build": "22S5077c",
+      "name": "watchOS 11.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4563440318
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.2",
+          "build": "22S5077c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.2",
+      "build": "22S5094a",
+      "name": "watchOS 11.2 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4563440325
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.2",
+          "build": "22S5094a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.2",
+      "build": "22S99",
+      "name": "watchOS 11.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4563440288
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.2",
+          "build": "22S97",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.4",
+      "build": "22T250",
+      "name": "watchOS 11.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4697658089
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.4",
+          "build": "22T246",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.4",
+      "build": "22T5212l",
+      "name": "watchOS 11.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4697658064
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.4",
+          "build": "22T5212l",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.4",
+      "build": "22T5228e",
+      "name": "watchOS 11.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4697658090
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.4",
+          "build": "22T5228d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.4",
+      "build": "22T5244a",
+      "name": "watchOS 11.4 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4697658091
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.4",
+          "build": "22T5243a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.5",
+      "build": "22T5566a",
+      "name": "watchOS 11.5 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4697843375
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.5",
+          "build": "22T5564a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "11.5",
+      "build": "22T572",
+      "name": "watchOS 11.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4697843398
+        }
+      ],
+      "sdks": [
+        {
+          "version": "11.5",
+          "build": "22T572",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.0",
+      "build": "23R353",
+      "name": "watchOS 26.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033407866
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825263413
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23R351",
+          "preferred": true
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.0",
+      "build": "23R5280m",
+      "name": "watchOS 26.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234746932
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23R5280j",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.0",
+      "build": "23R5296e",
+      "name": "watchOS 26.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234750013
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959482905
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23R5296f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.0",
+      "build": "23R5307g",
+      "name": "watchOS 26.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4966299436
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3691044634
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23R5307e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.0",
+      "build": "23R5317g",
+      "name": "watchOS 26.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4899190131
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623935916
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23R5317f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.0",
+      "build": "23R5328g",
+      "name": "watchOS 26.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4899190082
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623951620
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23R5328f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.0",
+      "build": "23R5346a",
+      "name": "watchOS 26.0 beta 6 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 4899205961
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3623951513
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.0",
+          "build": "23R5344a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.1",
+      "build": "23S36",
+      "name": "watchOS 26.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5100532818
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825278734
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23S34",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.1",
+      "build": "23S5002i",
+      "name": "watchOS 26.1 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5100516811
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825278750
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23S5002i",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.1",
+      "build": "23S5017d",
+      "name": "watchOS 26.1 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5167641446
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3892373243
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23S5017c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.1",
+      "build": "23S5031a",
+      "name": "watchOS 26.1 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5100517258
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825263730
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.1",
+          "build": "23S5030a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.2",
+      "build": "23S303",
+      "name": "watchOS 26.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5167641438
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3892372934
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23S303",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.2",
+      "build": "23S5280e",
+      "name": "watchOS 26.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5167626015
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3892372050
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23S5280d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.2",
+      "build": "23S5297b",
+      "name": "watchOS 26.2 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5167641527
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3892373392
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.2",
+          "build": "23S5297a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.4",
+      "build": "23T239",
+      "name": "watchOS 26.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234753703
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959483201
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23T238",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.4",
+      "build": "23T240b",
+      "name": "watchOS 26.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234753765
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959482575
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23T238",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.4",
+      "build": "23T5209m",
+      "name": "watchOS 26.4 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234735395
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959482733
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23T5209m",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.4",
+      "build": "23T5221e",
+      "name": "watchOS 26.4 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234753680
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959483153
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23T5221c",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.4",
+      "build": "23T5236a",
+      "name": "watchOS 26.4 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234753785
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959483248
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.4",
+          "build": "23T5235a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.5",
+      "build": "23T5541h",
+      "name": "watchOS 26.5 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234754234
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959482662
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23T5541e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.5",
+      "build": "23T5553h",
+      "name": "watchOS 26.5 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234754335
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959482675
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23T5553d",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.5",
+      "build": "23T5567a",
+      "name": "watchOS 26.5 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234753693
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959482686
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23T5566a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "26.5",
+      "build": "23T570",
+      "name": "watchOS 26.5 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234754350
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959483106
+        }
+      ],
+      "sdks": [
+        {
+          "version": "26.5",
+          "build": "23T570",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.0",
+      "build": "24R362",
+      "name": "watchOS 27.0 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825263104
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24R360",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.0",
+      "build": "24R5289n",
+      "name": "watchOS 27.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 4026591744
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24R5289n",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.0",
+      "build": "24R5305f",
+      "name": "watchOS 27.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 4093715456
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24R5305f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.0",
+      "build": "24R5315h",
+      "name": "watchOS 27.0 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825262592
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24R5315h",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.0",
+      "build": "24R5325f",
+      "name": "watchOS 27.0 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825263616
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24R5325e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.0",
+      "build": "24R5347a",
+      "name": "watchOS 27.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825277952
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24R5346a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.0",
+      "build": "24R5355a",
+      "name": "watchOS 27.0 beta 6 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825278464
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.0",
+          "build": "24R5355a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.2",
+      "build": "24S116",
+      "name": "watchOS 27.2 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3892387840
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24S115",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.2",
+      "build": "24S118",
+      "name": "watchOS 27.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3892372992
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24S118",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.2",
+      "build": "24S5086l",
+      "name": "watchOS 27.2 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825278464
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24S5086l",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.2",
+      "build": "24S5091f",
+      "name": "watchOS 27.2 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3825263104
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24S5091f",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.2",
+      "build": "24S5112a",
+      "name": "watchOS 27.2 beta 4 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3892372992
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.2",
+          "build": "24S5110a",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.3",
+      "build": "24S5284h",
+      "name": "watchOS 27.3 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3892374016
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.3",
+          "build": "24S5284e",
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "platform": "watchOS",
+      "version": "27.3",
+      "build": "24S5296d",
+      "name": "watchOS 27.3 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959483392
+        }
+      ],
+      "sdks": [
+        {
+          "version": "27.3",
+          "build": "24S5296b",
+          "preferred": false
+        }
+      ]
+    }
+  ]
+}

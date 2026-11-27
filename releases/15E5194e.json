@@ -1,0 +1,95 @@
+{
+  "versions": [
+    "15.3.0-beta.3"
+  ],
+  "build": "15E5194e",
+  "date": "2024-02-13",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "14.0",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.3_beta_3/Xcode_15.3_beta_3.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-15_3-release-notes",
+  "compilers": {
+    "clang": "15.0.0",
+    "swift": "5.10"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "17.4",
+      "build": "21E5200b"
+    },
+    "macOS": {
+      "version": "14.4",
+      "build": "23E5196c"
+    },
+    "tvOS": {
+      "version": "17.4",
+      "build": "21L5212c"
+    },
+    "visionOS": {
+      "version": "1.1",
+      "build": "21O5188b"
+    },
+    "watchOS": {
+      "version": "10.4",
+      "build": "21T5202c"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "17.4",
+      "build": "21E5200d",
+      "name": "iOS 17.4 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7222465825
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "17.4",
+      "build": "21L5212d",
+      "name": "tvOS 17.4 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3677820151
+        }
+      ]
+    },
+    "visionOS": {
+      "platform": "visionOS",
+      "version": "1.1",
+      "build": "21O5188c",
+      "name": "xrOS 1.1 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 6790205536,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "10.4",
+      "build": "21T5202d",
+      "name": "watchOS 10.4 beta 3 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3925760180
+        }
+      ]
+    }
+  }
+}

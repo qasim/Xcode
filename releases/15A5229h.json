@@ -1,0 +1,95 @@
+{
+  "versions": [
+    "15.0.0-beta.7"
+  ],
+  "build": "15A5229h",
+  "date": "2023-08-22",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "13.4",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta_7/Xcode_15_beta_7.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes",
+  "compilers": {
+    "clang": "15.0.0",
+    "swift": "5.9"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "17.0",
+      "build": "21A5317a"
+    },
+    "macOS": {
+      "version": "14.0",
+      "build": "23A5326c"
+    },
+    "tvOS": {
+      "version": "17.0",
+      "build": "21J5345a"
+    },
+    "visionOS": {
+      "version": "1.0",
+      "build": "21N5207h"
+    },
+    "watchOS": {
+      "version": "10.0",
+      "build": "21R5346a"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "17.0",
+      "build": "21A5317a",
+      "name": "iOS 17.0 beta 7 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7473045603
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "17.0",
+      "build": "21J5345a",
+      "name": "tvOS 17.0 beta 7 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3742265308
+        }
+      ]
+    },
+    "visionOS": {
+      "platform": "visionOS",
+      "version": "1.0",
+      "build": "21N5207f",
+      "name": "xrOS 1 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7220726735,
+          "requires": {
+            "min_xcode": "15.0",
+            "min_macos": "13.4"
+          }
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "10.0",
+      "build": "21R5346a",
+      "name": "watchOS 10.0 beta 7 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3961182505
+        }
+      ]
+    }
+  }
+}

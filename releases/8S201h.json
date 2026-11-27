@@ -1,0 +1,11 @@
+{
+  "versions": [
+    "8.0.0-beta.6"
+  ],
+  "build": "8S201h",
+  "date": "2016-08-15",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "10.11.5"
+}

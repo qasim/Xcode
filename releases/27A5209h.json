@@ -1,0 +1,113 @@
+{
+  "versions": [
+    "27.0.0-beta.2"
+  ],
+  "build": "27A5209h",
+  "date": "2026-06-22",
+  "sources": [
+    "apple-downloadables-index",
+    "xcodereleases"
+  ],
+  "requires_macos": "26.4",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27_beta_2/Xcode_27_beta_2.xip",
+    "architectures": [
+      "arm64"
+    ]
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27-release-notes",
+  "compilers": {
+    "clang": "21.0.0",
+    "swift": "6.4"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "27.0",
+      "build": "24A5370g"
+    },
+    "macOS": {
+      "version": "27.0",
+      "build": "26A5368f"
+    },
+    "tvOS": {
+      "version": "27.0",
+      "build": "24J5305f"
+    },
+    "visionOS": {
+      "version": "27.0",
+      "build": "24M5306g"
+    },
+    "watchOS": {
+      "version": "27.0",
+      "build": "24R5305f"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "27.0",
+      "build": "24A5370g",
+      "name": "iOS 27.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8388697088
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "27.0",
+      "build": "24J5305f",
+      "name": "tvOS 27.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 4026591744
+        }
+      ]
+    },
+    "visionOS": {
+      "platform": "visionOS",
+      "version": "27.0",
+      "build": "24M5306g",
+      "name": "visionOS 27.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7851823104
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "27.0",
+      "build": "24R5305f",
+      "name": "watchOS 27.0 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 4093715456
+        }
+      ]
+    }
+  },
+  "components": {
+    "metalToolchain": {
+      "build": "27A5209h",
+      "size": 838904320
+    }
+  }
+}

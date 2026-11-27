@@ -1,0 +1,75 @@
+{
+  "versions": [
+    "15.0.0-beta"
+  ],
+  "build": "15A5160n",
+  "date": "2023-06-05",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "13.3",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta/Xcode_15_beta.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes",
+  "compilers": {
+    "clang": "15.0.0",
+    "swift": "5.9"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "17.0",
+      "build": "21A5248u"
+    },
+    "macOS": {
+      "version": "14.0",
+      "build": "23A5257p"
+    },
+    "tvOS": {
+      "version": "17.0",
+      "build": "21J5273p"
+    },
+    "watchOS": {
+      "version": "10.0",
+      "build": "21R5275s"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "17.0",
+      "build": "21A5248u",
+      "name": "iOS 17.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 7534187147
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "17.0",
+      "build": "21J5273p",
+      "name": "tvOS 17.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3717677009
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "10.0",
+      "build": "21R5275s",
+      "name": "watchOS 10.0 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 3912372147
+        }
+      ]
+    }
+  }
+}

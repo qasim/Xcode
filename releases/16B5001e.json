@@ -1,0 +1,91 @@
+{
+  "versions": [
+    "16.1.0-beta"
+  ],
+  "build": "16B5001e",
+  "date": "2024-08-12",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "14.5",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.1_beta/Xcode_16.1_beta.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-16_1-release-notes",
+  "compilers": {
+    "clang": "16.0.0",
+    "swift": "6.0"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "18.1",
+      "build": "22B5023b"
+    },
+    "macOS": {
+      "version": "15.1",
+      "build": "24B5024b"
+    },
+    "tvOS": {
+      "version": "18.0",
+      "build": "22J5335e"
+    },
+    "visionOS": {
+      "version": "2.0",
+      "build": "22N5297d"
+    },
+    "watchOS": {
+      "version": "11.0",
+      "build": "22R5328f"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "18.1",
+      "build": "22B5023e",
+      "name": "iOS 18.1 beta 2 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8858435409
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "18.0",
+      "build": "22J5335e",
+      "name": "tvOS 18.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4160787113
+        }
+      ]
+    },
+    "visionOS": {
+      "platform": "visionOS",
+      "version": "2.0",
+      "build": "22N5297g",
+      "name": "visionOS 2.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 8388651328
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "11.0",
+      "build": "22R5328f",
+      "name": "watchOS 11.0 beta 5 Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "size": 4227895988
+        }
+      ]
+    }
+  }
+}

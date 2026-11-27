@@ -1,0 +1,98 @@
+{
+  "versions": [
+    "16.2.0"
+  ],
+  "build": "16C5032a",
+  "date": "2024-12-11",
+  "sources": [
+    "apple-downloadables-index",
+    "xcodereleases"
+  ],
+  "requires_macos": "14.5",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.2/Xcode_16.2.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-16_2-release-notes",
+  "compilers": {
+    "clang": "16.0.0",
+    "swift": "6.0.3"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "18.2",
+      "build": "22C146"
+    },
+    "macOS": {
+      "version": "15.2",
+      "build": "24C94"
+    },
+    "tvOS": {
+      "version": "18.2",
+      "build": "22K152"
+    },
+    "visionOS": {
+      "version": "2.2",
+      "build": "22N799"
+    },
+    "watchOS": {
+      "version": "11.2",
+      "build": "22S97"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "18.3.1",
+      "build": "22D8075",
+      "name": "iOS 18.3.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8724195680
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "18.2",
+      "build": "22K154",
+      "name": "tvOS 18.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4362113677
+        }
+      ]
+    },
+    "visionOS": {
+      "platform": "visionOS",
+      "version": "2.3",
+      "build": "22N895",
+      "name": "visionOS 2.3 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8858435609
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "11.2",
+      "build": "22S99",
+      "name": "watchOS 11.2 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4563440288
+        }
+      ]
+    }
+  },
+  "components": {
+    "deviceSupport": {
+      "build": "16C7015",
+      "size": 46778398
+    }
+  }
+}
