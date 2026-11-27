@@ -1,0 +1,141 @@
+{
+  "versions": [
+    "26.5.0-beta"
+  ],
+  "build": "17F5012f",
+  "date": "2026-03-30",
+  "sources": [
+    "apple-downloadables-index",
+    "xcodereleases"
+  ],
+  "requires_macos": "26.2",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.5_beta/Xcode_26.5_beta_Apple_silicon.xip",
+    "architectures": [
+      "arm64"
+    ]
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-26_5-release-notes",
+  "compilers": {
+    "clang": "21.0.0",
+    "swift": "6.3"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "26.5",
+      "build": "23F5043e"
+    },
+    "macOS": {
+      "version": "26.5",
+      "build": "25F5042g"
+    },
+    "tvOS": {
+      "version": "26.5",
+      "build": "23L5443e"
+    },
+    "visionOS": {
+      "version": "26.5",
+      "build": "23O5441e"
+    },
+    "watchOS": {
+      "version": "26.5",
+      "build": "23T5541e"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "26.5",
+      "build": "23F5043g",
+      "name": "iOS 26.5 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603483045
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8455793202
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "26.5",
+      "build": "23L5443g",
+      "name": "tvOS 26.5 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033426420
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758155047
+        }
+      ]
+    },
+    "visionOS": {
+      "platform": "visionOS",
+      "version": "26.5",
+      "build": "23O5441g",
+      "name": "visionOS 26.5 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395538406
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314935992
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "26.5",
+      "build": "23T5541h",
+      "name": "watchOS 26.5 beta Simulator Runtime",
+      "beta": true,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234754234
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959482662
+        }
+      ]
+    }
+  },
+  "components": {
+    "metalToolchain": {
+      "build": "17F5012e",
+      "size": 687904429
+    }
+  }
+}
