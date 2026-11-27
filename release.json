@@ -5,11 +5,13 @@
   "build": "11N605f",
   "date": "2020-05-06",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "10.15.2",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.5_beta_2/Xcode_11.5_beta_2.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.5_beta_2/Xcode_11.5_beta_2.xip",
+    "size": 8123584674
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-11_5-release-notes",
   "compilers": {
