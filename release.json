@@ -1,0 +1,142 @@
+{
+  "versions": [
+    "26.4.0-rc",
+    "26.4.0"
+  ],
+  "build": "17E192",
+  "date": "2026-03-24",
+  "sources": [
+    "apple-downloadables-index",
+    "xcodereleases"
+  ],
+  "requires_macos": "26.2",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.4/Xcode_26.4_Apple_silicon.xip",
+    "architectures": [
+      "arm64"
+    ]
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-26_4-release-notes",
+  "compilers": {
+    "clang": "21.0.0",
+    "swift": "6.3"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "26.4",
+      "build": "23E237"
+    },
+    "macOS": {
+      "version": "26.4",
+      "build": "25E236"
+    },
+    "tvOS": {
+      "version": "26.4",
+      "build": "23L236"
+    },
+    "visionOS": {
+      "version": "26.4",
+      "build": "23O238"
+    },
+    "watchOS": {
+      "version": "26.4",
+      "build": "23T238"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "26.4",
+      "build": "23E244",
+      "name": "iOS 26.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 10603482987
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8455792717
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "26.4",
+      "build": "23L243a",
+      "name": "tvOS 26.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5033442413
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758155172
+        }
+      ]
+    },
+    "visionOS": {
+      "platform": "visionOS",
+      "version": "26.4",
+      "build": "23O243",
+      "name": "visionOS 26.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 9395538444
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7314936057
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "26.4",
+      "build": "23T240b",
+      "name": "watchOS 26.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64",
+            "x86_64"
+          ],
+          "size": 5234753765
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3959482575
+        }
+      ]
+    }
+  },
+  "components": {
+    "metalToolchain": {
+      "build": "17E188",
+      "size": 687903347
+    }
+  }
+}
