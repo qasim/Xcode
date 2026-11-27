@@ -5,11 +5,13 @@
   "build": "15C5042i",
   "date": "2023-10-26",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "13.5",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.1_beta_2/Xcode_15.1_beta_2.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.1_beta_2/Xcode_15.1_beta_2.xip",
+    "size": 3419004678
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-15_1-release-notes",
   "compilers": {
