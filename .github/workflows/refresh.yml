@@ -94,3 +94,8 @@ jobs:
 
     - name: Refresh tags
       run: python refresh.py tags --push
+
+    - name: Refresh releases
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: python refresh.py releases

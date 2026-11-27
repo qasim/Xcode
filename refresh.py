@@ -38,12 +38,14 @@ wins, and the old tag is deleted.
 """
 
 import argparse
+import hashlib
 import json
 import os
 import plistlib
 import re
 import subprocess
 import sys
+import time
 import xml.etree.ElementTree as ElementTree
 from collections import defaultdict
 from email.utils import parsedate_to_datetime
@@ -613,14 +615,19 @@ def tag_name(version, build):
     return '%s+%s' % (version, build)
 
 
-def release_title(release):
-    """Names a release the way Apple does, such as "Xcode 27.3 beta 2 (27C5035i)"."""
-    # A build that shipped as a release is named for it rather than its RC.
-    stable = [version for version in release['versions'] if '-' not in version]
-    number, _, pre_release = (stable or release['versions'])[-1].partition('-')
+def version_title(version, build):
+    """Names a version the way Apple does, such as "Xcode 27.3 beta 2 (27C5035i)"."""
+    number, _, pre_release = version.partition('-')
     number = re.sub(r'(\.0){1,2}$', '', number)
     label = pre_release.replace('.', ' ').replace('rc', 'RC').replace('seed', 'GM seed')
-    return 'Xcode %s%s (%s)' % (number, ' ' + label if label else '', release['build'])
+    return 'Xcode %s%s (%s)' % (number, ' ' + label if label else '', build)
+
+
+def release_title(release):
+    """Names a build for its release, rather than the release candidate it
+    shipped unchanged from."""
+    stable = [version for version in release['versions'] if '-' not in version]
+    return version_title((stable or release['versions'])[-1], release['build'])
 
 
 def committed_releases():
@@ -694,6 +701,153 @@ def refresh_tags(push):
                 git('push', 'origin', *[prefix + 'refs/tags/' + name for name in names[start:start + 100]])
 
 
+# Releases
+
+
+# GitHub limits how fast content is created, to about 500 requests an hour,
+# so each run changes at most this many releases, a request a second, and
+# leaves the rest for the next run.
+RELEASE_CHANGES_PER_RUN = 100
+
+
+class GitHub:
+    """The parts of GitHub's API that releases need."""
+
+    def __init__(self, repository, token):
+        self.repository = repository
+        self.session = requests.Session()
+        self.session.headers.update({'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28'})
+        if token:
+            self.session.headers['Authorization'] = 'Bearer %s' % token
+
+    def request(self, method, url, **kwargs):
+        if not url.startswith('https://'):
+            url = 'https://api.github.com/repos/%s/%s' % (self.repository, url)
+        for _ in range(5):
+            response = self.session.request(method, url, timeout=60, **kwargs)
+            limited = response.status_code in (403, 429) and (
+                'retry-after' in response.headers or response.headers.get('x-ratelimit-remaining') == '0'
+            )
+            if not limited:
+                break
+            wait = int(response.headers.get('retry-after') or int(response.headers['x-ratelimit-reset']) - time.time())
+            warn('GitHub asks to wait %d seconds' % wait)
+            time.sleep(min(max(wait, 1), 600))
+        response.raise_for_status()
+        if method != 'GET':
+            time.sleep(1)
+        return response.json() if response.content else None
+
+    def releases(self):
+        releases = []
+        page = 1
+        while True:
+            batch = self.request('GET', 'releases', params={'per_page': 100, 'page': page})
+            releases.extend(batch)
+            if len(batch) < 100:
+                return releases
+            page += 1
+
+
+def release_notes(release):
+    """A release's description on GitHub."""
+    links = []
+    if release.get('download', {}).get('url'):
+        links.append('[Download](%s)' % release['download']['url'])
+    if release.get('release_notes'):
+        links.append('[Release notes](%s)' % release['release_notes'])
+    paragraphs = []
+    if release.get('requires_macos'):
+        paragraphs.append('Requires macOS %s or later.' % release['requires_macos'])
+    if links:
+        paragraphs.append(' \u00b7 '.join(links))
+    return '\n\n'.join(paragraphs)
+
+
+def repository_name():
+    if os.environ.get('GITHUB_REPOSITORY'):
+        return os.environ['GITHUB_REPOSITORY']
+    url = git('remote', 'get-url', 'origin')
+    return re.sub(r'\.git$', '', re.split(r'github\.com[:/]', url)[-1])
+
+
+def refresh_releases(dry_run):
+    """Keeps a GitHub release for each tag, named for its version, with its
+    release.json attached, and marks the newest stable Xcode as the latest."""
+    github = GitHub(repository_name(), os.environ.get('GITHUB_TOKEN'))
+    tags = set(git('tag', '--list').splitlines())
+    releases = list(committed_releases())
+    owner = version_owners(release for release, _ in releases)
+
+    # Each tag's release, oldest first, so they are created in order.
+    wanted = {}
+    for release, blob in releases:
+        for version in release['versions']:
+            name = tag_name(version, release['build'])
+            if name in tags and owner.get(version) == release['build']:
+                wanted[name] = (version, release, blob)
+    order = sorted(wanted, key=lambda name: (wanted[name][1]['date'], semver_key(wanted[name][0])))
+    stable = [name for name in order if '-' not in wanted[name][0]]
+    latest = stable[-1] if stable else None
+
+    existing = {release['tag_name']: release for release in github.releases()}
+    created, updated, deleted = [], [], []
+
+    for name in sorted(set(existing) - set(wanted)):
+        deleted.append(name)
+        if not dry_run:
+            github.request('DELETE', 'releases/%d' % existing[name]['id'])
+
+    left = 0
+    for name in order:
+        version, release, blob = wanted[name]
+        content = subprocess.run(['git', 'cat-file', 'blob', blob], cwd=ROOT, check=True, capture_output=True).stdout
+        digest = 'sha256:' + hashlib.sha256(content).hexdigest()
+        fields = {
+            'name': version_title(version, release['build']),
+            'body': release_notes(release),
+            'prerelease': '-' in version,
+        }
+        current = existing.get(name)
+        assets = [asset for asset in (current or {}).get('assets', []) if asset['name'] == 'release.json']
+        stale_fields = current is not None and any(current.get(key) != value for key, value in fields.items())
+        stale_asset = current is None or [asset.get('digest') for asset in assets] != [digest]
+        if not (current is None or stale_fields or stale_asset):
+            continue
+        if len(created) + len(updated) >= RELEASE_CHANGES_PER_RUN:
+            left += 1
+            continue
+        (created if current is None else updated).append(name)
+        if dry_run:
+            continue
+        make_latest = 'true' if name == latest else 'false'
+        if current is None:
+            current = github.request('POST', 'releases', json=dict(fields, tag_name=name, make_latest=make_latest))
+        elif stale_fields:
+            github.request('PATCH', 'releases/%d' % current['id'], json=dict(fields, make_latest=make_latest))
+        if stale_asset:
+            for asset in assets:
+                github.request('DELETE', 'releases/assets/%d' % asset['id'])
+            github.request('POST', current['upload_url'].split('{')[0], params={'name': 'release.json'},
+                           data=content, headers={'Content-Type': 'application/json'})
+
+    # A release marked latest only when created or edited, so the latest one
+    # is checked on every run.
+    if latest is not None and latest in existing and not dry_run:
+        try:
+            current_latest = github.request('GET', 'releases/latest')['tag_name']
+        except requests.HTTPError:
+            current_latest = None
+        if current_latest != latest:
+            github.request('PATCH', 'releases/%d' % existing[latest]['id'], json={'make_latest': 'true'})
+
+    print('Releases: %d created, %d updated, %d deleted%s%s' % (
+        len(created), len(updated), len(deleted),
+        ', %d left for the next run' % left if left else '',
+        ' (dry run)' if dry_run else '',
+    ))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     commands = parser.add_subparsers(dest='command', required=True)
@@ -703,14 +857,18 @@ def main():
     commands.add_parser('manifest', help='rebuild releases.json, releases/ and simulators.json from sources/')
     tags = commands.add_parser('tags', help="move each version's tag to its release's latest data")
     tags.add_argument('--push', action='store_true', help='push the tags that changed or were deleted to origin')
+    releases = commands.add_parser('releases', help="keep a GitHub release for each tag, with its release.json")
+    releases.add_argument('--dry-run', action='store_true', help='print what would change, and change nothing')
     arguments = parser.parse_args()
 
     if arguments.command == 'fetch':
         refresh_sources(arguments.apple_developer_downloads)
     elif arguments.command == 'manifest':
         refresh_manifest()
-    else:
+    elif arguments.command == 'tags':
         refresh_tags(arguments.push)
+    else:
+        refresh_releases(arguments.dry_run)
 
 if __name__ == '__main__':
     main()
