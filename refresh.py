@@ -57,6 +57,8 @@ import requests
 XCODE_RELEASES_URL = 'https://xcodereleases.com/data.json'
 RELEASES_FEED_URL = 'https://developer.apple.com/news/releases/rss/releases.rss'
 DOWNLOADABLES_INDEX_URL = 'https://devimages-cdn.apple.com/downloads/xcode/simulators/index2.dvtdownloadableindex'
+RELEASE_NOTES_INDEX_URL = 'https://developer.apple.com/tutorials/data/documentation/xcode-release-notes.json'
+OLD_RELEASE_NOTES_URL = 'https://developer.apple.com/library/archive/releasenotes/DeveloperTools/RN-Xcode/Chapters/Introduction.html'
 
 # The sources, by precedence: where two give a field, the first one wins.
 # - apple-developer-downloads: Apple's list of developer downloads, which
@@ -64,8 +66,11 @@ DOWNLOADABLES_INDEX_URL = 'https://devimages-cdn.apple.com/downloads/xcode/simul
 # - apple-releases-feed: Apple's developer releases feed.
 # - apple-downloadables-index: Apple's downloadables index, which Xcode reads to
 #   offer simulator runtimes and components.
+# - apple-release-notes: Apple's index of Xcode release notes, one page for
+#   each version from Xcode 10 on, rewritten with each of its betas.
 # - xcodereleases: xcodereleases.com.
-PRECEDENCE = ['apple-developer-downloads', 'apple-releases-feed', 'apple-downloadables-index', 'xcodereleases']
+PRECEDENCE = ['apple-developer-downloads', 'apple-releases-feed', 'apple-downloadables-index', 'apple-release-notes',
+              'xcodereleases']
 
 # The feed covers only about the last six months, so its snapshot can shrink.
 # The other sources only grow, so a snapshot that loses more than a tenth of
@@ -393,6 +398,22 @@ def developer_downloads_snapshot(content):
     return {'releases': releases}
 
 
+RELEASE_NOTES_TITLE = re.compile(r'^Xcode (?P<number>\d+(?:\.\d+){0,2})\b.* Release Notes$', re.IGNORECASE)
+
+
+def release_notes_snapshot(content):
+    """Apple's index of Xcode release notes: one page for each version, which
+    covers its betas too."""
+    pages = {}
+    for reference in json.loads(content).get('references', {}).values():
+        match = RELEASE_NOTES_TITLE.match(reference.get('title', ''))
+        if match is None or not reference.get('url', '').startswith('/documentation/'):
+            continue
+        number = semver_for({'number': match['number'], 'release': {'release': True}})
+        pages[number] = 'https://developer.apple.com' + reference['url']
+    return {'release_notes': [{'version': version, 'url': url} for version, url in pages.items()]}
+
+
 def sorted_snapshot(snapshot):
     """Orders a snapshot so that it changes only when its source does."""
     releases = []
@@ -404,16 +425,22 @@ def sorted_snapshot(snapshot):
     simulators = sorted(snapshot.get('simulators', []), key=lambda runtime: (
         runtime['platform'], version_key(runtime.get('version', '')), runtime['build']
     ))
-    return without_empty({'releases': releases, 'simulators': simulators})
+    release_notes = sorted(snapshot.get('release_notes', []), key=lambda page: version_key(page['version']))
+    return without_empty({'releases': releases, 'simulators': simulators, 'release_notes': release_notes})
+
+
+def entries(snapshot):
+    """How much a snapshot lists: its releases, or its release notes pages."""
+    return len(snapshot.get('releases', [])) + len(snapshot.get('release_notes', []))
 
 
 def save_snapshot(name, snapshot):
     """Replaces a source's snapshot, unless the new one looks broken."""
     path = SOURCES / ('%s.json' % name)
-    count = len(snapshot.get('releases', []))
-    before = len((read_json(path) or {}).get('releases', []))
+    count = entries(snapshot)
+    before = entries(read_json(path) or {})
     if count == 0 or (name not in ROLLING and count < before * 0.9):
-        warn('Keeping the last snapshot of %s: it lists %d releases now, against %d before' % (name, count, before))
+        warn('Keeping the last snapshot of %s: it lists %d entries now, against %d before' % (name, count, before))
         return False
     return write_json(path, sorted_snapshot(snapshot))
 
@@ -429,6 +456,7 @@ def refresh_sources(developer_downloads):
         ('xcodereleases', lambda: xcodereleases_snapshot(download(XCODE_RELEASES_URL))),
         ('apple-releases-feed', lambda: releases_feed_snapshot(download(RELEASES_FEED_URL))),
         ('apple-downloadables-index', lambda: downloadables_index_snapshot(download(DOWNLOADABLES_INDEX_URL))),
+        ('apple-release-notes', lambda: release_notes_snapshot(download(RELEASE_NOTES_INDEX_URL))),
     ]
     if developer_downloads is not None:
         readers.append(('apple-developer-downloads',
@@ -507,6 +535,23 @@ def renamed(version):
     return re.sub(r'(?<=\d)-seed(?=\.|$)', '-gm-seed', version)
 
 
+def release_notes_link(notes, release):
+    """Apple's current release notes page for a release's version, which
+    Apple moves from time to time, or else the link a source gave. A link to
+    a file only signed-in developers can download is left out."""
+    number = release['versions'][-1].partition('-')[0]
+    # A version Apple has no page for, such as 12.1.1, which only had a
+    # release candidate, is covered by its minor version's page.
+    minor = '.'.join(number.split('.')[:2]) + '.0'
+    link = notes.get(number) or notes.get(minor) or release.get('release_notes')
+    if link and link.startswith('https://download.developer.apple.com/'):
+        link = None
+    # Release notes from before Xcode 10 are all on one page in Apple's archive.
+    if link is None and version_key(number) < [10]:
+        link = OLD_RELEASE_NOTES_URL
+    return link
+
+
 def tagged_versions():
     """Versions already tagged, by build."""
     versions = defaultdict(list)
@@ -575,6 +620,7 @@ def refresh_manifest():
 
     owner = version_owners(releases.values())
     runtimes = snapshots['apple-downloadables-index'].get('simulators', [])
+    notes = {page['version']: page['url'] for page in snapshots['apple-release-notes'].get('release_notes', [])}
 
     tagged = tagged_versions()
     changed = 0
@@ -596,6 +642,7 @@ def refresh_manifest():
                 changed += 1
             continue
         release['simulators'] = matching_simulators(runtimes, release.get('sdks', {}))
+        release['release_notes'] = release_notes_link(notes, release)
         release = {field: release[field] for field in FIELDS if field in release}
         changed += write_json(path, without_empty(release))
     changed += write_json(SIMULATORS, [runtime for runtime in runtimes if 'downloads' in runtime])
