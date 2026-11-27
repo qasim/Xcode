@@ -5,6 +5,7 @@
   "build": "27C5035i",
   "date": "2026-11-16",
   "sources": [
+    "apple-developer-downloads",
     "apple-releases-feed",
     "apple-downloadables-index",
     "xcodereleases"
