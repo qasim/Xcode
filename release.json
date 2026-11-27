@@ -11,7 +11,7 @@
   "download": {
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.5_beta_3/Xcode_12.5_beta_3.xip"
   },
-  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-12_5-beta-release-notes/",
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-12_5-release-notes",
   "compilers": {
     "clang": "12.0.5",
     "swift": "5.4"
