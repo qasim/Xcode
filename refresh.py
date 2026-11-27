@@ -38,6 +38,7 @@ wins, and the old tag is deleted.
 """
 
 import argparse
+import datetime
 import hashlib
 import json
 import os
@@ -770,9 +771,11 @@ def release_notes(release):
         links.append('[Download](%s)' % release['download']['url'])
     if release.get('release_notes'):
         links.append('[Release notes](%s)' % release['release_notes'])
-    paragraphs = []
+    # GitHub shows when a release was published here, not when Apple released it.
+    first = ['Released %s.' % datetime.date.fromisoformat(release['date']).strftime('%B %-d, %Y')]
     if release.get('requires_macos'):
-        paragraphs.append('Requires macOS %s or later.' % release['requires_macos'])
+        first.append('Requires macOS %s or later.' % release['requires_macos'])
+    paragraphs = [' '.join(first)]
     if links:
         paragraphs.append(' \u00b7 '.join(links))
     return '\n\n'.join(paragraphs)
