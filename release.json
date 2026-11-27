@@ -5,11 +5,13 @@
   "build": "11N111s",
   "date": "2020-02-05",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "10.15.2",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.4_beta/Xcode_11.4_beta.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.4_beta/Xcode_11.4_beta.xip",
+    "size": 8040943774
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-11_4-release-notes",
   "compilers": {
