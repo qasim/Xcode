@@ -7,5 +7,6 @@
   "sources": [
     "xcodereleases"
   ],
-  "requires_macos": "10.12"
+  "requires_macos": "10.12",
+  "release_notes": "https://developer.apple.com/library/archive/releasenotes/DeveloperTools/RN-Xcode/Chapters/Introduction.html"
 }
