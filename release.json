@@ -5,11 +5,13 @@
   "build": "16B5014f",
   "date": "2024-09-17",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "14.5",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.1_beta_2/Xcode_16.1_beta_2.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.1_beta_2/Xcode_16.1_beta_2.xip",
+    "size": 2865420329
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-16_1-release-notes",
   "compilers": {
