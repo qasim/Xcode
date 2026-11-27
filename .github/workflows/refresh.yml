@@ -28,8 +28,16 @@ jobs:
       # xcodes' output can name the account, so it stays on the runner, where
       # the last run's is kept in ~/Library/Logs/Xcode refresh.
       run: |
-        mkdir -p "$HOME/Library/Logs/Xcode refresh"
-        "$HOME/.local/bin/mise" x xcodes@2.2.0 -- xcodes update --data-source apple < /dev/null > "$HOME/Library/Logs/Xcode refresh/xcodes.log" 2>&1
+        log="$HOME/Library/Logs/Xcode refresh/xcodes.log"
+        mkdir -p "$(dirname "$log")"
+        # xcodes deletes its saved password when it can't read it, so the
+        # password is read here first, and handed to it.
+        if ! XCODES_PASSWORD=$(security find-generic-password -s com.robotsandpencils.xcodes -w 2> "$log"); then
+          echo "The runner can't read the Apple ID password xcodes saved. Sign in with xcodes on it, then run this again."
+          exit 1
+        fi
+        export XCODES_PASSWORD
+        "$HOME/.local/bin/mise" x xcodes@2.2.0 -- xcodes update --data-source apple < /dev/null >> "$log" 2>&1
         cp "$HOME/Library/Application Support/com.robotsandpencils.xcodes/available-xcodes.json" "$RUNNER_TEMP/apple-developer-downloads.json"
 
     - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
