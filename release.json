@@ -1,0 +1,37 @@
+{
+  "versions": [
+    "10.2.0-beta"
+  ],
+  "build": "10P82s",
+  "date": "2019-01-24",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "10.14",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_10.2_beta/Xcode_10.2_beta.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode_release_notes/xcode_10_2_beta_release_notes",
+  "compilers": {
+    "clang": "10.0.1",
+    "swift": "5.0"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "12.2",
+      "build": "16E5181e"
+    },
+    "macOS": {
+      "version": "10.14.4",
+      "build": "18E174e"
+    },
+    "tvOS": {
+      "version": "12.2",
+      "build": "16L5181e"
+    },
+    "watchOS": {
+      "version": "5.2",
+      "build": "16T5181e"
+    }
+  }
+}
