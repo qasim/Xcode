@@ -5,11 +5,13 @@
   "build": "15A5229h",
   "date": "2023-08-22",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "13.4",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta_7/Xcode_15_beta_7.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta_7/Xcode_15_beta_7.xip",
+    "size": 3356164356
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes",
   "compilers": {

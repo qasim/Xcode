@@ -6,6 +6,7 @@
   "build": "17E192",
   "date": "2026-03-24",
   "sources": [
+    "apple-developer-downloads",
     "apple-downloadables-index",
     "xcodereleases"
   ],

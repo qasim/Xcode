@@ -5,11 +5,13 @@
   "build": "12A6163b",
   "date": "2020-07-07",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "10.15.4",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12_beta_2/Xcode_12_beta_2.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12_beta_2/Xcode_12_beta_2.xip",
+    "size": 9479264560
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-12-release-notes",
   "compilers": {

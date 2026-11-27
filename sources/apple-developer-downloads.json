@@ -1,0 +1,1947 @@
+{
+  "releases": [
+    {
+      "versions": [
+        "8.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8/Xcode_8.xip",
+        "size": 4415370488
+      }
+    },
+    {
+      "versions": [
+        "8.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8.1/Xcode_8.1.xip",
+        "size": 4446762222
+      }
+    },
+    {
+      "versions": [
+        "8.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8.2/Xcode_8.2.xip",
+        "size": 4526912760
+      }
+    },
+    {
+      "versions": [
+        "8.2.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8.2.1/Xcode_8.2.1.xip",
+        "size": 4527043832
+      }
+    },
+    {
+      "versions": [
+        "8.3.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8.3/Xcode_8.3.xip",
+        "size": 4505613560
+      }
+    },
+    {
+      "versions": [
+        "8.3.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8.3.2/Xcode_8.3.2.xip",
+        "size": 4494079225
+      }
+    },
+    {
+      "versions": [
+        "8.3.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8.3.3/Xcode_8.3.3.xip",
+        "size": 4522587381
+      }
+    },
+    {
+      "versions": [
+        "9.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_9/Xcode_9.xip",
+        "size": 5370295544
+      }
+    },
+    {
+      "versions": [
+        "9.0.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_9.0.1/Xcode_9.0.1.xip",
+        "size": 5442843891
+      }
+    },
+    {
+      "versions": [
+        "9.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_9.1/Xcode_9.1.xip",
+        "size": 5442909430
+      }
+    },
+    {
+      "versions": [
+        "9.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_9.2/Xcode_9.2.xip",
+        "size": 5478692088
+      }
+    },
+    {
+      "versions": [
+        "9.3.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_9.3/Xcode_9.3.xip",
+        "size": 5235094775
+      }
+    },
+    {
+      "versions": [
+        "9.3.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_9.3.1/Xcode_9.3.1.xip",
+        "size": 5235160313
+      }
+    },
+    {
+      "versions": [
+        "9.4.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_9.4/Xcode_9.4.xip",
+        "size": 5271139574
+      }
+    },
+    {
+      "versions": [
+        "9.4.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_9.4.1/Xcode_9.4.1.xip",
+        "size": 5271270648
+      }
+    },
+    {
+      "versions": [
+        "10.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_10/Xcode_10.xip",
+        "size": 5876954359
+      }
+    },
+    {
+      "versions": [
+        "10.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_10.1/Xcode_10.1.xip",
+        "size": 6047806709
+      }
+    },
+    {
+      "versions": [
+        "10.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_10.2/Xcode_10.2.xip",
+        "size": 6055736566
+      }
+    },
+    {
+      "versions": [
+        "10.2.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_10.2.1/Xcode_10.2.1.xip",
+        "size": 6055671032
+      }
+    },
+    {
+      "versions": [
+        "10.3.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_10.3/Xcode_10.3.xip",
+        "size": 6044005625
+      }
+    },
+    {
+      "versions": [
+        "11.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11/Xcode_11.xip",
+        "size": 7612937462
+      }
+    },
+    {
+      "versions": [
+        "11.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.1/Xcode_11.1.xip",
+        "size": 7675842712
+      }
+    },
+    {
+      "versions": [
+        "11.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.2/Xcode_11.2.xip",
+        "size": 7821856919
+      }
+    },
+    {
+      "versions": [
+        "11.2.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.2.1/Xcode_11.2.1.xip",
+        "size": 7821856908
+      }
+    },
+    {
+      "versions": [
+        "11.3.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.3_beta/Xcode_11.3_beta.xip",
+        "size": 7831687317
+      }
+    },
+    {
+      "versions": [
+        "11.3.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.3/Xcode_11.3.xip",
+        "size": 7845187734
+      }
+    },
+    {
+      "versions": [
+        "11.3.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.3.1/Xcode_11.3.1.xip",
+        "size": 7843352719
+      }
+    },
+    {
+      "versions": [
+        "11.4.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.4_beta/Xcode_11.4_beta.xip",
+        "size": 8040943774
+      }
+    },
+    {
+      "versions": [
+        "11.4.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.4_beta_2/Xcode_11.4_beta_2.xip",
+        "size": 8057131168
+      }
+    },
+    {
+      "versions": [
+        "11.4.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.4_beta_3/Xcode_11.4_beta_3.xip",
+        "size": 8102285476
+      }
+    },
+    {
+      "versions": [
+        "11.4.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.4/Xcode_11.4.xip",
+        "size": 8111919274
+      }
+    },
+    {
+      "versions": [
+        "11.4.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.4.1/Xcode_11.4.1.xip",
+        "size": 8108773540
+      }
+    },
+    {
+      "versions": [
+        "11.5.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.5_beta/Xcode_11.5_beta.xip",
+        "size": 8122863782
+      }
+    },
+    {
+      "versions": [
+        "11.5.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.5_beta_2/Xcode_11.5_beta_2.xip",
+        "size": 8123584674
+      }
+    },
+    {
+      "versions": [
+        "11.5.0-gm-seed"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.5_GM_Seed/Xcode_11.5_GM_Seed.xip",
+        "size": 8124240037
+      }
+    },
+    {
+      "versions": [
+        "11.5.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.5/Xcode_11.5.xip",
+        "size": 8124240037
+      }
+    },
+    {
+      "versions": [
+        "11.6.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.6_beta/Xcode_11.6_beta.xip",
+        "size": 8148226209
+      }
+    },
+    {
+      "versions": [
+        "11.6.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.6/Xcode_11.6.xip",
+        "size": 8148095139
+      }
+    },
+    {
+      "versions": [
+        "11.7.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.7_beta/Xcode_11.7_beta.xip",
+        "size": 8150585507
+      }
+    },
+    {
+      "versions": [
+        "11.7.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.7/Xcode_11.7.xip",
+        "size": 8150585507
+      }
+    },
+    {
+      "versions": [
+        "12.0.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12_beta/Xcode_12_beta.xip",
+        "size": 9727104151
+      }
+    },
+    {
+      "versions": [
+        "12.0.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12_beta_2/Xcode_12_beta_2.xip",
+        "size": 9479264560
+      }
+    },
+    {
+      "versions": [
+        "12.0.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12_beta_3/Xcode_12_beta_3.xip",
+        "size": 10966021639
+      }
+    },
+    {
+      "versions": [
+        "12.0.0-beta.4"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12_beta_4/Xcode_12_beta_4.xip",
+        "size": 10938597383
+      }
+    },
+    {
+      "versions": [
+        "12.0.0-beta.5"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12_beta_5/Xcode_12_beta_5.xip",
+        "size": 11023984384
+      }
+    },
+    {
+      "versions": [
+        "12.0.0-beta.6"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12_beta_6/Xcode_12_beta_6.xip",
+        "size": 11034804018
+      }
+    },
+    {
+      "versions": [
+        "12.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12/Xcode_12.xip",
+        "size": 11209653545
+      }
+    },
+    {
+      "versions": [
+        "12.0.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.0.1/Xcode_12.0.1.xip",
+        "size": 11210638916
+      }
+    },
+    {
+      "versions": [
+        "12.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.1/Xcode_12.1.xip",
+        "size": 11308399439
+      }
+    },
+    {
+      "versions": [
+        "12.1.1-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.1.1_Release_Candidate/Xcode_12.1.1_Release_Candidate.xip",
+        "size": 11456977862
+      }
+    },
+    {
+      "versions": [
+        "12.2.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.2_beta/Xcode_12.2_beta.xip",
+        "size": 11185412181
+      }
+    },
+    {
+      "versions": [
+        "12.2.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.2_beta_2/Xcode_12.2_beta_2.xip",
+        "size": 11253768273
+      }
+    },
+    {
+      "versions": [
+        "12.2.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.2_beta_3/Xcode_12.2_beta_3.xip",
+        "size": 11413927871
+      }
+    },
+    {
+      "versions": [
+        "12.2.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.2_Release_Candidate/Xcode_12.2_Release_Candidate.xip",
+        "size": 11428618390
+      }
+    },
+    {
+      "versions": [
+        "12.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.2/Xcode_12.2.xip",
+        "size": 11429769178
+      }
+    },
+    {
+      "versions": [
+        "12.3.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.3_beta/Xcode_12.3_beta.xip",
+        "size": 11572248770
+      }
+    },
+    {
+      "versions": [
+        "12.3.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.3_Release_Candidate/Xcode_12.3_Release_Candidate.xip",
+        "size": 11632302760
+      }
+    },
+    {
+      "versions": [
+        "12.3.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.3/Xcode_12.3.xip",
+        "size": 11632302760
+      }
+    },
+    {
+      "versions": [
+        "12.4.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.4_Release_Candidate/Xcode_12.4_Release_Candidate.xip",
+        "size": 11655535601
+      }
+    },
+    {
+      "versions": [
+        "12.4.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.4/Xcode_12.4.xip",
+        "size": 11655535601
+      }
+    },
+    {
+      "versions": [
+        "12.5.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.5_beta/Xcode_12.5_beta.xip",
+        "size": 11872421094
+      }
+    },
+    {
+      "versions": [
+        "12.5.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.5_beta_2/Xcode_12.5_beta_2.xip",
+        "size": 11757120121
+      }
+    },
+    {
+      "versions": [
+        "12.5.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.5_beta_3/Xcode_12.5_beta_3.xip",
+        "size": 11759734759
+      }
+    },
+    {
+      "versions": [
+        "12.5.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.5_Release_Candidate/Xcode_12.5_Release_Candidate.xip",
+        "size": 11792740967
+      }
+    },
+    {
+      "versions": [
+        "12.5.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.5/Xcode_12.5.xip",
+        "size": 11792740967
+      }
+    },
+    {
+      "versions": [
+        "12.5.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.5.1/Xcode_12.5.1.xip",
+        "size": 11793805435
+      }
+    },
+    {
+      "versions": [
+        "13.0.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13_beta/Xcode_13_beta.xip",
+        "size": 12807783602
+      }
+    },
+    {
+      "versions": [
+        "13.0.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13_beta_2/Xcode_13_beta_2.xip",
+        "size": 12326722535
+      }
+    },
+    {
+      "versions": [
+        "13.0.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13_beta_3/Xcode_13_beta3.xip",
+        "size": 10544816010
+      }
+    },
+    {
+      "versions": [
+        "13.0.0-beta.4"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13_beta_4/Xcode_13_beta_4.xip",
+        "size": 10389494578
+      }
+    },
+    {
+      "versions": [
+        "13.0.0-beta.5"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13_beta_5/Xcode_13_beta_5.xip",
+        "size": 10374184069
+      }
+    },
+    {
+      "versions": [
+        "13.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13/Xcode_13.xip",
+        "size": 10584826269
+      }
+    },
+    {
+      "versions": [
+        "13.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.1/Xcode_13.1.xip",
+        "size": 10583734507
+      }
+    },
+    {
+      "versions": [
+        "13.2.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.2_beta/Xcode_13.2_beta.xip",
+        "size": 10718891811
+      }
+    },
+    {
+      "versions": [
+        "13.2.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.2_beta_2/Xcode_13.2_beta_2.xip",
+        "size": 10752795003
+      }
+    },
+    {
+      "versions": [
+        "13.2.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.2_Release_Candidate/Xcode_13.2_Release_Candidate.xip",
+        "size": 10747777272
+      }
+    },
+    {
+      "versions": [
+        "13.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.2/Xcode_13.2.xip",
+        "size": 10747777272
+      }
+    },
+    {
+      "versions": [
+        "13.2.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.2.1/Xcode_13.2.1.xip",
+        "size": 10747154610
+      }
+    },
+    {
+      "versions": [
+        "13.3.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.3_beta/Xcode_13.3_beta.xip",
+        "size": 10768270270
+      }
+    },
+    {
+      "versions": [
+        "13.3.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.3_beta_2/Xcode_13.3_beta_2.xip",
+        "size": 10790568479
+      }
+    },
+    {
+      "versions": [
+        "13.3.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.3_beta_3/Xcode_13.3_beta_3.xip",
+        "size": 10813495628
+      }
+    },
+    {
+      "versions": [
+        "13.3.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.3_Release_Candidate/Xcode_13.3_Release_Candidate.xip",
+        "size": 10829814724
+      }
+    },
+    {
+      "versions": [
+        "13.3.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.3/Xcode_13.3.xip",
+        "size": 10829814724
+      }
+    },
+    {
+      "versions": [
+        "13.3.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.3.1/Xcode_13.3.1.xip",
+        "size": 10838018895
+      }
+    },
+    {
+      "versions": [
+        "13.4.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.4_Release_Candidate/Xcode_13.4_Release_Candidate.xip",
+        "size": 10784590885
+      }
+    },
+    {
+      "versions": [
+        "13.4.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.4/Xcode_13.4.xip",
+        "size": 10784590885
+      }
+    },
+    {
+      "versions": [
+        "13.4.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.4.1/Xcode_13.4.1.xip",
+        "size": 10783587696
+      }
+    },
+    {
+      "versions": [
+        "14.0.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14_Release_Candidate/Xcode_14_Release_Candidate.xip",
+        "size": 7546175440
+      }
+    },
+    {
+      "versions": [
+        "14.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14/Xcode_14.xip",
+        "size": 7546175440
+      }
+    },
+    {
+      "versions": [
+        "14.0.1-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.0.1_Release_Candidate/Xcode_14.0.1_Release_Candidate.xip",
+        "size": 7542658481
+      }
+    },
+    {
+      "versions": [
+        "14.0.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.0.1/Xcode_14.0.1.xip",
+        "size": 7542658481
+      }
+    },
+    {
+      "versions": [
+        "14.1.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.1_Release_Candidate/Xcode_14.1_Release_Candidate.xip",
+        "size": 7573076990
+      }
+    },
+    {
+      "versions": [
+        "14.1.0-rc.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.1_Release_Candidate_2/Xcode_14.1_Release_Candidate_2.xip",
+        "size": 7571812789
+      }
+    },
+    {
+      "versions": [
+        "14.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.1/Xcode_14.1.xip",
+        "size": 7571812789
+      }
+    },
+    {
+      "versions": [
+        "14.2.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.2_Release_Candidate/Xcode_14.2_Release_Candidate.xip",
+        "size": 7676134463
+      }
+    },
+    {
+      "versions": [
+        "14.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.2/Xcode_14.2.xip",
+        "size": 7676134463
+      }
+    },
+    {
+      "versions": [
+        "14.3.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3_beta/Xcode_14.3_beta.xip",
+        "size": 7542039389
+      }
+    },
+    {
+      "versions": [
+        "14.3.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3_beta_2/Xcode_14.3_beta_2.xip",
+        "size": 7552997373
+      }
+    },
+    {
+      "versions": [
+        "14.3.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3_beta_3/Xcode_14.3_beta_3.xip",
+        "size": 7493123602
+      }
+    },
+    {
+      "versions": [
+        "14.3.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3_Release_Candidate/Xcode_14.3_Release_Candidate.xip",
+        "size": 7527491653
+      }
+    },
+    {
+      "versions": [
+        "14.3.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3/Xcode_14.3.xip",
+        "size": 7528750442
+      }
+    },
+    {
+      "versions": [
+        "14.3.1-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3.1_Release_Candidate/Xcode_14.3.1_Release_Candidate.xip",
+        "size": 7529210308
+      }
+    },
+    {
+      "versions": [
+        "14.3.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3.1/Xcode_14.3.1.xip",
+        "size": 7529909045
+      }
+    },
+    {
+      "versions": [
+        "15.0.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta/Xcode_15_beta.xip",
+        "size": 3090276981
+      }
+    },
+    {
+      "versions": [
+        "15.0.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta_2/Xcode_15_beta_2.xip",
+        "size": 3315110739
+      }
+    },
+    {
+      "versions": [
+        "15.0.0-beta.4"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta_4/Xcode_15_beta_4.xip",
+        "size": 3351367364
+      }
+    },
+    {
+      "versions": [
+        "15.0.0-beta.5"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta_5/Xcode_15_beta_5.xip",
+        "size": 3402517894
+      }
+    },
+    {
+      "versions": [
+        "15.0.0-beta.6"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta_6/Xcode_15_beta_6.xip",
+        "size": 3406041544
+      }
+    },
+    {
+      "versions": [
+        "15.0.0-beta.7"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta_7/Xcode_15_beta_7.xip",
+        "size": 3356164356
+      }
+    },
+    {
+      "versions": [
+        "15.0.0-beta.8"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15_beta_8/Xcode_15_beta_8.xip",
+        "size": 3349418627
+      }
+    },
+    {
+      "versions": [
+        "15.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15/Xcode_15.xip",
+        "size": 3179520441
+      }
+    },
+    {
+      "versions": [
+        "15.0.1-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.0.1_Release_Candidate/Xcode_15.0.1_Release_Candidate.xip",
+        "size": 3183641115
+      }
+    },
+    {
+      "versions": [
+        "15.0.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.0.1/Xcode_15.0.1.xip",
+        "size": 3183641115
+      }
+    },
+    {
+      "versions": [
+        "15.1.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.1_beta/Xcode_15.1_beta.xip",
+        "size": 3415175674
+      }
+    },
+    {
+      "versions": [
+        "15.1.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.1_beta_2/Xcode_15.1_beta_2.xip",
+        "size": 3419004678
+      }
+    },
+    {
+      "versions": [
+        "15.1.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.1_beta_3/Xcode_15.1_beta_3.xip",
+        "size": 3356589761
+      }
+    },
+    {
+      "versions": [
+        "15.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.1/Xcode_15.1.xip",
+        "size": 3136517686
+      }
+    },
+    {
+      "versions": [
+        "15.2.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.2_beta/Xcode_15.2_beta.xip",
+        "size": 3351705296
+      }
+    },
+    {
+      "versions": [
+        "15.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.2/Xcode_15.2.xip",
+        "size": 3355129366
+      }
+    },
+    {
+      "versions": [
+        "15.3.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.3_beta/Xcode_15.3_beta.xip",
+        "size": 3408100382
+      }
+    },
+    {
+      "versions": [
+        "15.3.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.3_beta_2/Xcode_15.3_beta_2.xip",
+        "size": 3407073624
+      }
+    },
+    {
+      "versions": [
+        "15.3.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.3_beta_3/Xcode_15.3_beta_3.xip",
+        "size": 3409328169
+      }
+    },
+    {
+      "versions": [
+        "15.3.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.3_Release_Candidate/Xcode_15.3_Release_Candidate.xip",
+        "size": 3401252732
+      }
+    },
+    {
+      "versions": [
+        "15.3.0-rc.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.3_Release_Candidate_2/Xcode_15.3_Release_Candidate_2.xip",
+        "size": 3399036468
+      }
+    },
+    {
+      "versions": [
+        "15.3.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.3/Xcode_15.3.xip",
+        "size": 3399036468
+      }
+    },
+    {
+      "versions": [
+        "15.4.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.4_beta/Xcode_15.4_beta.xip",
+        "size": 3404950447
+      }
+    },
+    {
+      "versions": [
+        "15.4.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.4_Release_Candidate/Xcode_15.4_Release_Candidate.xip",
+        "size": 3427583559
+      }
+    },
+    {
+      "versions": [
+        "15.4.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.4/Xcode_15.4.xip",
+        "size": 3427679872
+      }
+    },
+    {
+      "versions": [
+        "16.0.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16_beta/Xcode_16_beta.xip",
+        "size": 2818926878
+      }
+    },
+    {
+      "versions": [
+        "16.0.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16_beta_2/Xcode_16_beta_2.xip",
+        "size": 2812675760
+      }
+    },
+    {
+      "versions": [
+        "16.0.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16_beta_3/Xcode_16_beta_3.xip",
+        "size": 2817719789
+      }
+    },
+    {
+      "versions": [
+        "16.0.0-beta.4"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16_beta_4/Xcode_16_beta_4.xip",
+        "size": 2825854147
+      }
+    },
+    {
+      "versions": [
+        "16.0.0-beta.5"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16_beta_5/Xcode_16_beta_5.xip",
+        "size": 2830217705
+      }
+    },
+    {
+      "versions": [
+        "16.0.0-beta.6"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16_beta_6/Xcode_16_beta_6.xip",
+        "size": 2839182249
+      }
+    },
+    {
+      "versions": [
+        "16.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16/Xcode_16.xip",
+        "size": 2937846093
+      }
+    },
+    {
+      "versions": [
+        "16.1.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.1_beta/Xcode_16.1_beta.xip",
+        "size": 2832649480
+      }
+    },
+    {
+      "versions": [
+        "16.1.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.1_beta_2/Xcode_16.1_beta_2.xip",
+        "size": 2865420329
+      }
+    },
+    {
+      "versions": [
+        "16.1.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.1_beta_3/Xcode_16.1_beta_3.xip",
+        "size": 2868956898
+      }
+    },
+    {
+      "versions": [
+        "16.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.1/Xcode_16.1.xip",
+        "size": 2871930297
+      }
+    },
+    {
+      "versions": [
+        "16.2.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.2_beta_1/Xcode_16.2_beta_1.xip",
+        "size": 2865851655
+      }
+    },
+    {
+      "versions": [
+        "16.2.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.2_beta_2/Xcode_16.2_beta_2.xip",
+        "size": 2862221436
+      }
+    },
+    {
+      "versions": [
+        "16.2.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.2_beta_3/Xcode_16.2_beta_3.xip",
+        "size": 2939716442
+      }
+    },
+    {
+      "versions": [
+        "16.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.2/Xcode_16.2.xip",
+        "size": 2969019672
+      }
+    },
+    {
+      "versions": [
+        "16.3.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.3_beta/Xcode_16.3_beta.xip",
+        "size": 3120224678
+      }
+    },
+    {
+      "versions": [
+        "16.3.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.3_beta_2/Xcode_16.3_beta_2.xip",
+        "size": 3121139305
+      }
+    },
+    {
+      "versions": [
+        "16.3.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.3_beta_3/Xcode_16.3_beta_3.xip",
+        "size": 3109381374
+      }
+    },
+    {
+      "versions": [
+        "16.3.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.3_Release_Candidate/Xcode_16.3_Release_Candidate.xip",
+        "size": 3127451983
+      }
+    },
+    {
+      "versions": [
+        "16.3.0-rc.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.3_Release_Candidate_2/Xcode_16.3_Release_Candidate_2.xip",
+        "size": 3130585192
+      }
+    },
+    {
+      "versions": [
+        "16.3.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.3/Xcode_16.3.xip",
+        "size": 3130585192
+      }
+    },
+    {
+      "versions": [
+        "16.4.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.4_beta/Xcode_16.4_beta.xip",
+        "size": 3033064447
+      }
+    },
+    {
+      "versions": [
+        "16.4.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.4/Xcode_16.4.xip",
+        "size": 3036085732
+      }
+    },
+    {
+      "versions": [
+        "26.0.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26_beta/Xcode_26_beta.xip",
+        "size": 2915448386
+      }
+    },
+    {
+      "versions": [
+        "26.0.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26_beta_2/Xcode_26_beta_2.xip",
+        "size": 2936093213
+      }
+    },
+    {
+      "versions": [
+        "26.0.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26_beta_3/Xcode_26_beta_3.xip",
+        "size": 2885936016
+      }
+    },
+    {
+      "versions": [
+        "26.0.0-beta.4"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26_beta_4/Xcode_26_beta_4.xip",
+        "size": 2824773004
+      }
+    },
+    {
+      "versions": [
+        "26.0.0-beta.5"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26_beta_5/Xcode_26_beta_5_Universal.xip",
+        "architectures": [
+          "arm64",
+          "x86_64"
+        ],
+        "size": 2805090146
+      }
+    },
+    {
+      "versions": [
+        "26.0.0-beta.6"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26_beta_6/Xcode_26_beta_6_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2205618535
+      }
+    },
+    {
+      "versions": [
+        "26.0.0-beta.7"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26_beta_7/Xcode_26_beta_7_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2201919795
+      }
+    },
+    {
+      "versions": [
+        "26.0.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26_Release_Candidate/Xcode_26_Release_Candidate_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2227230516
+      }
+    },
+    {
+      "versions": [
+        "26.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26/Xcode_26_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2230256043
+      }
+    },
+    {
+      "versions": [
+        "26.0.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.0.1/Xcode_26.0.1_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2229166021
+      }
+    },
+    {
+      "versions": [
+        "26.1.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.1_beta/Xcode_26.1_beta_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2234379303
+      }
+    },
+    {
+      "versions": [
+        "26.1.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.1_beta_2/Xcode_26.1_beta_2_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2253433500
+      }
+    },
+    {
+      "versions": [
+        "26.1.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.1_beta_3/Xcode_26.1_beta_3_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2270558012
+      }
+    },
+    {
+      "versions": [
+        "26.1.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.1_Release_Candidate/Xcode_26.1_Release_Candidate_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2257912491
+      }
+    },
+    {
+      "versions": [
+        "26.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.1/Xcode_26.1_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2256432242
+      }
+    },
+    {
+      "versions": [
+        "26.1.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.1.1/Xcode_26.1.1_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2259523057
+      }
+    },
+    {
+      "versions": [
+        "26.2.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.2_beta/Xcode_26.2_beta_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2253742237
+      }
+    },
+    {
+      "versions": [
+        "26.2.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.2_beta_2/Xcode_26.2_beta_2_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2253872500
+      }
+    },
+    {
+      "versions": [
+        "26.2.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.2_Release_Candidate/Xcode_26.2_Release_Candidate_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2255074013
+      }
+    },
+    {
+      "versions": [
+        "26.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.2/Xcode_26.2_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2253037901
+      }
+    },
+    {
+      "versions": [
+        "26.3.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.3_Release_Candidate/Xcode_26.3_Release_Candidate_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2260425957
+      }
+    },
+    {
+      "versions": [
+        "26.3.0-rc.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.3_Release_Candidate_2/Xcode_26.3_Release_Candidate_2_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2263233523
+      }
+    },
+    {
+      "versions": [
+        "26.3.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.3/Xcode_26.3_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2267146666
+      }
+    },
+    {
+      "versions": [
+        "26.4.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.4_beta/Xcode_26.4_beta_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2304595665
+      }
+    },
+    {
+      "versions": [
+        "26.4.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.4_beta_2/Xcode_26.4_beta_2_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2311585098
+      }
+    },
+    {
+      "versions": [
+        "26.4.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.4_beta_3/Xcode_26.4_beta_3_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2314075919
+      }
+    },
+    {
+      "versions": [
+        "26.4.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.4/Xcode_26.4_Universal.xip",
+        "architectures": [
+          "arm64",
+          "x86_64"
+        ],
+        "size": 2959117539
+      }
+    },
+    {
+      "versions": [
+        "26.4.1"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.4.1/Xcode_26.4.1_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2311684752
+      }
+    },
+    {
+      "versions": [
+        "26.5.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.5_beta/Xcode_26.5_beta_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2318370218
+      }
+    },
+    {
+      "versions": [
+        "26.5.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.5_beta_2/Xcode_26.5_beta_2_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2318880128
+      }
+    },
+    {
+      "versions": [
+        "26.5.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.5_beta_3/Xcode_26.5_beta_3_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2326399586
+      }
+    },
+    {
+      "versions": [
+        "26.5.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.5_Release_Candidate/Xcode_26.5_Release_Candidate_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2316428058
+      }
+    },
+    {
+      "versions": [
+        "26.5.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.5/Xcode_26.5_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2316428058
+      }
+    },
+    {
+      "versions": [
+        "26.6.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.6_Release_Candidate/Xcode_26.6_Release_Candidate_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2319982846
+      }
+    },
+    {
+      "versions": [
+        "26.6.0-rc.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.6_Release_Candidate_2/Xcode_26.6_Release_Candidate_2_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2318258791
+      }
+    },
+    {
+      "versions": [
+        "26.6.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.6/Xcode_26.6_Apple_silicon.xip",
+        "architectures": [
+          "arm64"
+        ],
+        "size": 2318258791
+      }
+    },
+    {
+      "versions": [
+        "27.0.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27_beta/Xcode_27_beta.xip",
+        "size": 1946061496
+      }
+    },
+    {
+      "versions": [
+        "27.0.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27_beta_2/Xcode_27_beta_2.xip",
+        "size": 1966096310
+      }
+    },
+    {
+      "versions": [
+        "27.0.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27_beta_3/Xcode_27_beta_3.xip",
+        "size": 1966574894
+      }
+    },
+    {
+      "versions": [
+        "27.0.0-beta.4"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27_beta_4/Xcode_27_beta_4.xip",
+        "size": 1974543568
+      }
+    },
+    {
+      "versions": [
+        "27.0.0-beta.5"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27_beta_5/Xcode_27_beta_5.xip",
+        "size": 1976856184
+      }
+    },
+    {
+      "versions": [
+        "27.0.0-beta.6"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27_beta_6/Xcode_27_beta_6.xip",
+        "size": 1985513566
+      }
+    },
+    {
+      "versions": [
+        "27.0.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27_Release_Candidate/Xcode_27_Release_Candidate.xip",
+        "size": 2014229334
+      }
+    },
+    {
+      "versions": [
+        "27.0.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27/Xcode_27.xip",
+        "size": 2014229334
+      }
+    },
+    {
+      "versions": [
+        "27.1.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.1_beta/Xcode_27.1_beta.xip",
+        "size": 2027292809
+      }
+    },
+    {
+      "versions": [
+        "27.1.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.1_Release_Candidate/Xcode_27.1_Release_Candidate.xip",
+        "size": 2027369056
+      }
+    },
+    {
+      "versions": [
+        "27.1.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.1/Xcode_27.1.xip",
+        "size": 2027369056
+      }
+    },
+    {
+      "versions": [
+        "27.2.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.2_beta/Xcode_27.2_beta.xip",
+        "size": 2019135860
+      }
+    },
+    {
+      "versions": [
+        "27.2.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.2_beta_2/Xcode_27.2_beta_2.xip",
+        "size": 2036363563
+      }
+    },
+    {
+      "versions": [
+        "27.2.0-beta.3"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.2_beta_3/Xcode_27.2_beta_3.xip",
+        "size": 2042749226
+      }
+    },
+    {
+      "versions": [
+        "27.2.0-rc"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.2_Release_Candidate/Xcode_27.2_Release_Candidate.xip",
+        "size": 2047348156
+      }
+    },
+    {
+      "versions": [
+        "27.2.0"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.2/Xcode_27.2.xip",
+        "size": 2045843072
+      }
+    },
+    {
+      "versions": [
+        "27.3.0-beta"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.3_beta/Xcode_27.3_beta.xip",
+        "size": 2075401264
+      }
+    },
+    {
+      "versions": [
+        "27.3.0-beta.2"
+      ],
+      "download": {
+        "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.3_beta_2/Xcode_27.3_beta_2.aea",
+        "size": 2174613438
+      }
+    }
+  ]
+}

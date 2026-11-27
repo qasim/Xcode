@@ -5,11 +5,13 @@
   "build": "13E5086k",
   "date": "2022-01-27",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "12.0",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.3_beta/Xcode_13.3_beta.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.3_beta/Xcode_13.3_beta.xip",
+    "size": 10768270270
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-13_3-release-notes",
   "compilers": {

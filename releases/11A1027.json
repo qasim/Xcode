@@ -6,11 +6,13 @@
   "build": "11A1027",
   "date": "2019-10-07",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "10.14.4",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.1/Xcode_11.1.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.1/Xcode_11.1.xip",
+    "size": 7675842712
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-11_1-release-notes",
   "compilers": {

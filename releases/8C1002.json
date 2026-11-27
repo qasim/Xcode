@@ -5,11 +5,13 @@
   "build": "8C1002",
   "date": "2016-12-19",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "10.11.5",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8.2.1/Xcode_8.2.1.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8.2.1/Xcode_8.2.1.xip",
+    "size": 4527043832
   },
   "release_notes": "https://developer.apple.com/library/content/releasenotes/DeveloperTools/RN-Xcode/Chapters/Introduction.html#//apple_ref/doc/uid/TP40001051-CH1-SW157",
   "compilers": {
