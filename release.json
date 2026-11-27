@@ -5,11 +5,13 @@
   "build": "14E5215g",
   "date": "2023-03-15",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "13.0",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3_beta_3/Xcode_14.3_beta_3.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3_beta_3/Xcode_14.3_beta_3.xip",
+    "size": 7493123602
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-14_3-release-notes",
   "compilers": {
