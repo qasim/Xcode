@@ -5,11 +5,13 @@
   "build": "15F31c",
   "date": "2024-05-07",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "14.0",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.4_Release_Candidate/Xcode_15.4_Release_Candidate.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_15.4_Release_Candidate/Xcode_15.4_Release_Candidate.xip",
+    "size": 3427583559
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-15_4-release-notes",
   "compilers": {
