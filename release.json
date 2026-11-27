@@ -1,0 +1,38 @@
+{
+  "versions": [
+    "13.2.0-rc",
+    "13.2.0"
+  ],
+  "build": "13C90",
+  "date": "2021-12-13",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "11.3",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_13.2/Xcode_13.2.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-13_2-release-notes",
+  "compilers": {
+    "clang": "13.0.0",
+    "swift": "5.5.2"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "15.2",
+      "build": "19C51"
+    },
+    "macOS": {
+      "version": "12.1",
+      "build": "21C46"
+    },
+    "tvOS": {
+      "version": "15.2",
+      "build": "19K50"
+    },
+    "watchOS": {
+      "version": "8.3",
+      "build": "19S51"
+    }
+  }
+}
