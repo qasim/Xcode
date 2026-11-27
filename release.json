@@ -1,0 +1,11 @@
+{
+  "versions": [
+    "9.0.0-beta.6"
+  ],
+  "build": "9M214v",
+  "date": "2017-08-21",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "10.12.6"
+}
