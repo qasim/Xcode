@@ -1,0 +1,37 @@
+{
+  "versions": [
+    "11.5.0-beta"
+  ],
+  "build": "11N605c",
+  "date": "2020-04-29",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "10.15.2",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.5_beta/Xcode_11.5_beta.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode_release_notes/xcode_11_5_beta_release_notes",
+  "compilers": {
+    "clang": "11.0.3",
+    "swift": "5.2.4"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "13.5",
+      "build": "17F5054f"
+    },
+    "macOS": {
+      "version": "10.15.4",
+      "build": "19E258"
+    },
+    "tvOS": {
+      "version": "13.4",
+      "build": "17L255"
+    },
+    "watchOS": {
+      "version": "6.2",
+      "build": "17T255"
+    }
+  }
+}
