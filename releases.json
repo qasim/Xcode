@@ -1044,7 +1044,7 @@
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.1/Xcode_12.1.xip"
   },
   {
-    "version": "12.1.0-seed",
+    "version": "12.1.0-gm-seed",
     "build": "12A7403",
     "date": "2020-10-20",
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12.1/Xcode_12.1.xip"
@@ -1080,7 +1080,7 @@
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12/Xcode_12.xip"
   },
   {
-    "version": "12.0.0-seed",
+    "version": "12.0.0-gm-seed",
     "build": "12A7209",
     "date": "2020-09-17",
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_12/Xcode_12.xip"
@@ -1152,7 +1152,7 @@
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.5/Xcode_11.5.xip"
   },
   {
-    "version": "11.5.0-seed",
+    "version": "11.5.0-gm-seed",
     "build": "11E608c",
     "date": "2020-05-20",
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.5/Xcode_11.5.xip"
@@ -1224,7 +1224,7 @@
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.2.1/Xcode_11.2.1.xip"
   },
   {
-    "version": "11.2.1-seed",
+    "version": "11.2.1-gm-seed",
     "build": "11B53",
     "date": "2019-11-05",
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.2.1_GM_Seed/Xcode_11.2.1_GM_Seed.xip"
@@ -1248,7 +1248,7 @@
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.1/Xcode_11.1.xip"
   },
   {
-    "version": "11.1.0-seed",
+    "version": "11.1.0-gm-seed",
     "build": "11A1027",
     "date": "2019-10-07",
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11.1/Xcode_11.1.xip"
@@ -1266,13 +1266,13 @@
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11/Xcode_11.xip"
   },
   {
-    "version": "11.0.0-seed.2",
+    "version": "11.0.0-gm-seed.2",
     "build": "11A420a",
     "date": "2019-09-20",
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11/Xcode_11.xip"
   },
   {
-    "version": "11.0.0-seed",
+    "version": "11.0.0-gm-seed",
     "build": "11A419c",
     "date": "2019-09-10",
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_11_GM_Seed/Xcode_11_GM_Seed.xip"
@@ -1392,7 +1392,7 @@
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_10/Xcode_10.xip"
   },
   {
-    "version": "10.0.0-seed",
+    "version": "10.0.0-gm-seed",
     "build": "10A254a",
     "date": "2018-09-12",
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_10_GM_seed/Xcode_10_GM_seed.xip"
@@ -1649,7 +1649,7 @@
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8.1/Xcode_8.1.xip"
   },
   {
-    "version": "8.1.0-seed",
+    "version": "8.1.0-gm-seed",
     "build": "8T61a",
     "date": "2016-10-24"
   },
@@ -1675,7 +1675,7 @@
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8/Xcode_8.xip"
   },
   {
-    "version": "8.0.0-seed",
+    "version": "8.0.0-gm-seed",
     "build": "8A218a",
     "date": "2016-09-13",
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_8/Xcode_8.xip"
