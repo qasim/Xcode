@@ -124,7 +124,7 @@ def semver_key(semver):
     """Orders versions such as "27.2.0-beta.2", "27.2.0-rc" and "27.2.0"."""
     number, _, pre_release = semver.partition('-')
     label, _, count = pre_release.partition('.')
-    stage = {'beta': 0, 'seed': 1, 'rc': 2}.get(label, 0) if pre_release else 3
+    stage = {'beta': 0, 'gm-seed': 1, 'rc': 2}.get(label, 0) if pre_release else 3
     return version_key(number), stage, int(count or 1)
 
 
@@ -152,7 +152,7 @@ def semver_for(version):
         pre_release_label = 'beta'
         pre_release_number = release['beta']
     elif 'gmSeed' in release:
-        pre_release_label = 'seed'
+        pre_release_label = 'gm-seed'
         pre_release_number = release['gmSeed']
     if pre_release_label is not None:
         if pre_release_number is not None and pre_release_number > 1:
@@ -500,13 +500,19 @@ def matching_simulators(runtimes, sdks):
     return simulators
 
 
+def renamed(version):
+    """A version under its current name: GM seeds were tagged "-seed" before
+    they were "-gm-seed"."""
+    return re.sub(r'(?<=\d)-seed(?=\.|$)', '-gm-seed', version)
+
+
 def tagged_versions():
     """Versions already tagged, by build."""
     versions = defaultdict(list)
     for name in git('tag', '--list').splitlines():
         version, _, build = name.rpartition('+')
         if version:
-            versions[build].append(version)
+            versions[build].append(renamed(version))
     return versions
 
 
@@ -530,6 +536,8 @@ def refresh_manifest():
     without_build = []
     for name in PRECEDENCE:
         for record in snapshots[name].get('releases', []):
+            if 'versions' in record:
+                record['versions'] = [renamed(version) for version in record['versions']]
             if 'build' in record:
                 by_build[record['build']].append((name, record))
             else:
@@ -561,7 +569,8 @@ def refresh_manifest():
     # stay tagged, and still compete for versions with the builds listed now.
     for path in RELEASES.glob('*.json'):
         if path.stem not in releases:
-            releases[path.stem] = read_json(path)
+            release = read_json(path)
+            releases[path.stem] = release | {'versions': [renamed(version) for version in release['versions']]}
 
     owner = version_owners(releases.values())
     runtimes = snapshots['apple-downloadables-index'].get('simulators', [])
@@ -575,7 +584,8 @@ def refresh_manifest():
         # another build has that version now, as when a source renames a build.
         release['versions'] = sorted((
             version
-            for version in merged_versions(existing.get('versions', []), tagged.get(build, []), release['versions'])
+            for version in merged_versions(map(renamed, existing.get('versions', [])), tagged.get(build, []),
+                                           release['versions'])
             if owner.get(version, build) == build
         ), key=semver_key)
         if not release['versions']:
@@ -619,7 +629,7 @@ def version_title(version, build):
     """Names a version the way Apple does, such as "Xcode 27.3 beta 2 (27C5035i)"."""
     number, _, pre_release = version.partition('-')
     number = re.sub(r'(\.0){1,2}$', '', number)
-    label = pre_release.replace('.', ' ').replace('rc', 'RC').replace('seed', 'GM seed')
+    label = pre_release.replace('.', ' ').replace('rc', 'RC').replace('gm-seed', 'GM seed')
     return 'Xcode %s%s (%s)' % (number, ' ' + label if label else '', build)
 
 
@@ -666,13 +676,17 @@ def refresh_tags(push):
         existing[name] = peeled[0] if peeled else target
     releases = list(committed_releases())
 
-    # A tag whose version now belongs to another build, which renamed or
-    # replaced it.
-    owner = version_owners(release for release, _ in releases)
+    if not releases:
+        warn('Changing no tags: releases/ has no committed releases')
+        return
+
+    # A tag whose version its build no longer has: another build has it now,
+    # or the version was renamed.
+    versions = {release['build']: set(release['versions']) for release, _ in releases}
     deleted = []
     for name in sorted(existing):
         version, _, build = name.rpartition('+')
-        if owner.get(version, build) != build:
+        if version not in versions.get(build, ()):
             git('tag', '--delete', name)
             deleted.append(name)
 
