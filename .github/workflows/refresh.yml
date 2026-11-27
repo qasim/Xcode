@@ -25,9 +25,11 @@ jobs:
 
     steps:
     - name: Fetch
-      # xcodes' output can name the account, so it stays on the runner.
+      # xcodes' output can name the account, so it stays on the runner, where
+      # the last run's is kept in ~/Library/Logs/Xcode refresh.
       run: |
-        "$HOME/.local/bin/mise" x xcodes@2.2.0 -- xcodes update --data-source apple < /dev/null > "$RUNNER_TEMP/xcodes.log" 2>&1
+        mkdir -p "$HOME/Library/Logs/Xcode refresh"
+        "$HOME/.local/bin/mise" x xcodes@2.2.0 -- xcodes update --data-source apple < /dev/null > "$HOME/Library/Logs/Xcode refresh/xcodes.log" 2>&1
         cp "$HOME/Library/Application Support/com.robotsandpencils.xcodes/available-xcodes.json" "$RUNNER_TEMP/apple-developer-downloads.json"
 
     - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
