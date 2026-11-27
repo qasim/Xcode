@@ -1,0 +1,113 @@
+{
+  "versions": [
+    "27.2.0-rc"
+  ],
+  "build": "27B48",
+  "date": "2026-10-19",
+  "sources": [
+    "apple-downloadables-index",
+    "xcodereleases"
+  ],
+  "requires_macos": "26.6",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_27.2_Release_Candidate/Xcode_27.2_Release_Candidate.xip",
+    "architectures": [
+      "arm64"
+    ]
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes",
+  "compilers": {
+    "clang": "21.0.0",
+    "swift": "6.4.2"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "27.2",
+      "build": "24B113"
+    },
+    "macOS": {
+      "version": "27.2",
+      "build": "26B116"
+    },
+    "tvOS": {
+      "version": "27.2",
+      "build": "24K117"
+    },
+    "visionOS": {
+      "version": "27.2",
+      "build": "24N117"
+    },
+    "watchOS": {
+      "version": "27.2",
+      "build": "24S115"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "27.2",
+      "build": "24B114",
+      "name": "iOS 27.2 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 8321588736
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "27.2",
+      "build": "24K118",
+      "name": "tvOS 27.2 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3758154752
+        }
+      ]
+    },
+    "visionOS": {
+      "platform": "visionOS",
+      "version": "27.2",
+      "build": "24N118",
+      "name": "visionOS 27.2 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 7650494976
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "27.2",
+      "build": "24S116",
+      "name": "watchOS 27.2 Release Candidate Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "size": 3892387840
+        }
+      ]
+    }
+  },
+  "components": {
+    "metalToolchain": {
+      "build": "27B47",
+      "size": 838903808
+    }
+  }
+}
