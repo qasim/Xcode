@@ -5,6 +5,7 @@
   "build": "17F5032f",
   "date": "2026-04-27",
   "sources": [
+    "apple-developer-downloads",
     "apple-downloadables-index",
     "xcodereleases"
   ],
@@ -13,7 +14,8 @@
     "url": "https://download.developer.apple.com/Developer_Tools/Xcode_26.5_beta_3/Xcode_26.5_beta_3_Apple_silicon.xip",
     "architectures": [
       "arm64"
-    ]
+    ],
+    "size": 2326399586
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-26_5-release-notes",
   "compilers": {
