@@ -5,11 +5,13 @@
   "build": "10E125",
   "date": "2019-03-25",
   "sources": [
+    "apple-developer-downloads",
     "xcodereleases"
   ],
   "requires_macos": "10.14.3",
   "download": {
-    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_10.2/Xcode_10.2.xip"
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_10.2/Xcode_10.2.xip",
+    "size": 6055736566
   },
   "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-10_2-release-notes",
   "compilers": {
