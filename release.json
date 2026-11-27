@@ -1,0 +1,87 @@
+{
+  "versions": [
+    "14.3.1"
+  ],
+  "build": "14E300c",
+  "date": "2023-06-01",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "13.0",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3.1/Xcode_14.3.1.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-14_3_1-release-notes",
+  "compilers": {
+    "clang": "14.0.3",
+    "swift": "5.8.1"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "16.4",
+      "build": "20E238"
+    },
+    "macOS": {
+      "version": "13.3",
+      "build": "22E245"
+    },
+    "tvOS": {
+      "version": "16.4",
+      "build": "20L489"
+    },
+    "watchOS": {
+      "version": "9.4",
+      "build": "20T248"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "16.4",
+      "build": "20E247",
+      "name": "iOS 16.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 6182486138,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "16.4",
+      "build": "20L494",
+      "name": "tvOS 16.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3457045786,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "9.4",
+      "build": "20T253",
+      "name": "watchOS 9.4 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 3597497121,
+          "requires": {
+            "max_xcode": "26.99.0",
+            "max_macos": "26.99.0"
+          }
+        }
+      ]
+    }
+  }
+}
