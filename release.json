@@ -1,0 +1,92 @@
+{
+  "versions": [
+    "16.1.0-rc",
+    "16.1.0"
+  ],
+  "build": "16B40",
+  "date": "2024-10-28",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "14.5",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_16.1/Xcode_16.1.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-16_1-release-notes",
+  "compilers": {
+    "clang": "16.0.0",
+    "swift": "6.0.2"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "18.1",
+      "build": "22B74"
+    },
+    "macOS": {
+      "version": "15.1",
+      "build": "24B75"
+    },
+    "tvOS": {
+      "version": "18.1",
+      "build": "22J572"
+    },
+    "visionOS": {
+      "version": "2.1",
+      "build": "22N573"
+    },
+    "watchOS": {
+      "version": "11.1",
+      "build": "22R574"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "version": "18.1",
+      "build": "22B81",
+      "name": "iOS 18.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8589978857
+        }
+      ]
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "version": "18.1",
+      "build": "22J578",
+      "name": "tvOS 18.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4227895964
+        }
+      ]
+    },
+    "visionOS": {
+      "platform": "visionOS",
+      "version": "2.1",
+      "build": "22N580",
+      "name": "visionOS 2.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 8455782126
+        }
+      ]
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "version": "11.1",
+      "build": "22R581",
+      "name": "watchOS 11.1 Simulator Runtime",
+      "beta": false,
+      "downloads": [
+        {
+          "size": 4496331455
+        }
+      ]
+    }
+  }
+}
