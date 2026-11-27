@@ -1,0 +1,51 @@
+{
+  "versions": [
+    "14.3.0-beta"
+  ],
+  "build": "14E5197f",
+  "date": "2023-02-16",
+  "sources": [
+    "xcodereleases"
+  ],
+  "requires_macos": "13.0",
+  "download": {
+    "url": "https://download.developer.apple.com/Developer_Tools/Xcode_14.3_beta/Xcode_14.3_beta.xip"
+  },
+  "release_notes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-14_3-release-notes",
+  "compilers": {
+    "clang": "14.0.3",
+    "swift": "5.8"
+  },
+  "sdks": {
+    "iOS": {
+      "version": "16.4",
+      "build": "20E5212f"
+    },
+    "macOS": {
+      "version": "13.3",
+      "build": "22E5219e"
+    },
+    "tvOS": {
+      "version": "16.4",
+      "build": "20L5463g"
+    },
+    "watchOS": {
+      "version": "9.4",
+      "build": "20T5222f"
+    }
+  },
+  "simulators": {
+    "iOS": {
+      "platform": "iOS",
+      "build": "20E5212f"
+    },
+    "tvOS": {
+      "platform": "tvOS",
+      "build": "20L5463g"
+    },
+    "watchOS": {
+      "platform": "watchOS",
+      "build": "20T5222f"
+    }
+  }
+}
