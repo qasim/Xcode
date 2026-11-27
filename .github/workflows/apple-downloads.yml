@@ -1,10 +1,9 @@
 name: Apple downloads
 
 # Experiment: fetches Apple's signed-in list of developer downloads with xcodes,
-# on a self-hosted runner, to see how reliably it runs unattended.
+# on a self-hosted runner, to see how reliably it runs unattended. Each run
+# signs in to Apple again, so it only runs when started by hand.
 on:
-  schedule:
-    - cron: '17,47 * * * *'
   workflow_dispatch:
 
 concurrency:
@@ -25,7 +24,7 @@ jobs:
         cp "$HOME/Library/Application Support/com.robotsandpencils.xcodes/available-xcodes.json" "$RUNNER_TEMP/apple-downloads.json"
         python3 -c 'import json, sys; print(len(json.load(open(sys.argv[1]))), "releases")' "$RUNNER_TEMP/apple-downloads.json"
 
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
       with:
         name: apple-downloads
         path: ${{ runner.temp }}/apple-downloads.json
